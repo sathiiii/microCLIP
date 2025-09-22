@@ -1,0 +1,10 @@
+{
+    "method"                            : "ours",
+    "eval_freq"                         : 5,
+    "final_model"                       : "last",
+    "source_model"                      : "CLIP",
+    "vision_backbone"                   : "ViT-B/32",
+    "use_handcrafted"                   : false,
+    "use_learnable_classifier"          : true,
+    "prompt_type"                       : "multi"
+}

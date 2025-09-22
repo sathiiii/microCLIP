@@ -1,0 +1,78 @@
+Reading split from ./data/flowers/split_zhou_OxfordFlowers.json
+Total number of training samples : 4093
+Reading split from ./data/flowers/split_zhou_OxfordFlowers.json
+Embedding dimension: 512
+Number of classes: 102
+Using ensembled handcrafted prompts for zero-shot class embeddings.
+Using CuPL textual prototypes as classifier.
+List of learnable parameters:
+-----------------------------------------------------------------------
+classifier
+clip_model.visual.ln_pre.weight
+clip_model.visual.ln_pre.bias
+clip_model.visual.transformer.resblocks.0.ln_1.weight
+clip_model.visual.transformer.resblocks.0.ln_1.bias
+clip_model.visual.transformer.resblocks.0.ln_2.weight
+clip_model.visual.transformer.resblocks.0.ln_2.bias
+clip_model.visual.transformer.resblocks.1.ln_1.weight
+clip_model.visual.transformer.resblocks.1.ln_1.bias
+clip_model.visual.transformer.resblocks.1.ln_2.weight
+clip_model.visual.transformer.resblocks.1.ln_2.bias
+clip_model.visual.transformer.resblocks.2.ln_1.weight
+clip_model.visual.transformer.resblocks.2.ln_1.bias
+clip_model.visual.transformer.resblocks.2.ln_2.weight
+clip_model.visual.transformer.resblocks.2.ln_2.bias
+clip_model.visual.transformer.resblocks.3.ln_1.weight
+clip_model.visual.transformer.resblocks.3.ln_1.bias
+clip_model.visual.transformer.resblocks.3.ln_2.weight
+clip_model.visual.transformer.resblocks.3.ln_2.bias
+clip_model.visual.transformer.resblocks.4.ln_1.weight
+clip_model.visual.transformer.resblocks.4.ln_1.bias
+clip_model.visual.transformer.resblocks.4.ln_2.weight
+clip_model.visual.transformer.resblocks.4.ln_2.bias
+clip_model.visual.transformer.resblocks.5.ln_1.weight
+clip_model.visual.transformer.resblocks.5.ln_1.bias
+clip_model.visual.transformer.resblocks.5.ln_2.weight
+clip_model.visual.transformer.resblocks.5.ln_2.bias
+clip_model.visual.transformer.resblocks.6.ln_1.weight
+clip_model.visual.transformer.resblocks.6.ln_1.bias
+clip_model.visual.transformer.resblocks.6.ln_2.weight
+clip_model.visual.transformer.resblocks.6.ln_2.bias
+clip_model.visual.transformer.resblocks.7.ln_1.weight
+clip_model.visual.transformer.resblocks.7.ln_1.bias
+clip_model.visual.transformer.resblocks.7.ln_2.weight
+clip_model.visual.transformer.resblocks.7.ln_2.bias
+clip_model.visual.transformer.resblocks.8.ln_1.weight
+clip_model.visual.transformer.resblocks.8.ln_1.bias
+clip_model.visual.transformer.resblocks.8.ln_2.weight
+clip_model.visual.transformer.resblocks.8.ln_2.bias
+clip_model.visual.transformer.resblocks.9.ln_1.weight
+clip_model.visual.transformer.resblocks.9.ln_1.bias
+clip_model.visual.transformer.resblocks.9.ln_2.weight
+clip_model.visual.transformer.resblocks.9.ln_2.bias
+clip_model.visual.transformer.resblocks.10.ln_1.weight
+clip_model.visual.transformer.resblocks.10.ln_1.bias
+clip_model.visual.transformer.resblocks.10.ln_2.weight
+clip_model.visual.transformer.resblocks.10.ln_2.bias
+clip_model.visual.transformer.resblocks.11.ln_1.weight
+clip_model.visual.transformer.resblocks.11.ln_1.bias
+clip_model.visual.transformer.resblocks.11.ln_2.weight
+clip_model.visual.transformer.resblocks.11.ln_2.bias
+clip_model.visual.ln_post.weight
+clip_model.visual.ln_post.bias
+query_proj.linear.weight
+key_proj.linear.weight
+value_proj.linear.weight
+-----------------------------------------------------------------------
+Using learning rate: 0.0001
+Set warmup steps = 0
+-----------------------------------------------------------------------
+n_parameters : 1861632
+-----------------------------------------------------------------------
+Auto resume checkpoint: 
+
+Starting training for 15 epochs.
+=====================================
+Epoch: [1/15] Iter:  [ 0/64]  PL_conf: 0.3579 (0.3579)  loss: 13.3358 (13.3358)  acc_local: 17.1875 (17.1875)  acc_global: 51.5625 (51.5625)  acc: 39.0625 (39.0625)  WCA_acc_PL: 51.5625 (51.5625)  TokenFusion_acc_PL: 64.0625 (64.0625)  acc_PL: 65.6250 (65.6250)
+Epoch: [1/15] Iter:  [10/64]  PL_conf: 0.3630 (0.3630)  loss: 11.9055 (11.9055)  acc_local: 22.1591 (22.1591)  acc_global: 48.7216 (48.7216)  acc: 42.7557 (42.7557)  WCA_acc_PL: 48.7216 (48.7216)  TokenFusion_acc_PL: 61.2216 (61.2216)  acc_PL: 65.3409 (65.3409)
+Epoch: [1/15] Iter:  [20/64]  PL_conf: 0.3636 (0.3633)  loss: 11.6077 (11.6900)  acc_local: 19.8438 (19.7173)  acc_global: 47.1094 (47.3214)  acc: 41.3281 (41.2202)  WCA_acc_PL: 47.1094 (47.3214)  TokenFusion_acc_PL: 60.0781 (60.2679)  acc_PL: 64.6875 (64.7321)

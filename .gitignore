@@ -1,0 +1,18 @@
+output/*
+ckpts/*
+data
+*.zip
+*.png
+*.jpg
+*.pdf
+*.ttf
+
+__pycache__
+
+other_VLMs/
+other_VLM_eval.py
+
+# Remove later
+scheduled_jobs
+gpu_scheduler
+gpu_job_scheduler.sh

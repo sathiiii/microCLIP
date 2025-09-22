@@ -1,0 +1,11 @@
+{
+    "method"                            : "ours",
+    "eval_freq"                         : 5,
+    "final_model"                       : "last",
+    "source_model"                      : "MetaCLIP",
+    "pretrained"                        : "metaclip_400m",
+    "vision_backbone"                   : "ViT-B-32-quickgelu",
+    "use_handcrafted"                   : false,
+    "use_learnable_classifier"          : true,
+    "prompt_type"                       : "multi"
+}

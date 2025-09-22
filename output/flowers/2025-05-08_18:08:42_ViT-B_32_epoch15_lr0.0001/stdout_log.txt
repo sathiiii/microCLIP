@@ -1,0 +1,1937 @@
+Reading split from ./data/flowers/split_zhou_OxfordFlowers.json
+Total number of training samples : 4093
+Reading split from ./data/flowers/split_zhou_OxfordFlowers.json
+Embedding dimension: 512
+Number of classes: 102
+Using ensembled handcrafted prompts for zero-shot class embeddings.
+List of learnable parameters:
+-----------------------------------------------------------------------
+classifier
+clip_model.visual.ln_pre.weight
+clip_model.visual.ln_pre.bias
+clip_model.visual.transformer.resblocks.0.ln_1.weight
+clip_model.visual.transformer.resblocks.0.ln_1.bias
+clip_model.visual.transformer.resblocks.0.ln_2.weight
+clip_model.visual.transformer.resblocks.0.ln_2.bias
+clip_model.visual.transformer.resblocks.1.ln_1.weight
+clip_model.visual.transformer.resblocks.1.ln_1.bias
+clip_model.visual.transformer.resblocks.1.ln_2.weight
+clip_model.visual.transformer.resblocks.1.ln_2.bias
+clip_model.visual.transformer.resblocks.2.ln_1.weight
+clip_model.visual.transformer.resblocks.2.ln_1.bias
+clip_model.visual.transformer.resblocks.2.ln_2.weight
+clip_model.visual.transformer.resblocks.2.ln_2.bias
+clip_model.visual.transformer.resblocks.3.ln_1.weight
+clip_model.visual.transformer.resblocks.3.ln_1.bias
+clip_model.visual.transformer.resblocks.3.ln_2.weight
+clip_model.visual.transformer.resblocks.3.ln_2.bias
+clip_model.visual.transformer.resblocks.4.ln_1.weight
+clip_model.visual.transformer.resblocks.4.ln_1.bias
+clip_model.visual.transformer.resblocks.4.ln_2.weight
+clip_model.visual.transformer.resblocks.4.ln_2.bias
+clip_model.visual.transformer.resblocks.5.ln_1.weight
+clip_model.visual.transformer.resblocks.5.ln_1.bias
+clip_model.visual.transformer.resblocks.5.ln_2.weight
+clip_model.visual.transformer.resblocks.5.ln_2.bias
+clip_model.visual.transformer.resblocks.6.ln_1.weight
+clip_model.visual.transformer.resblocks.6.ln_1.bias
+clip_model.visual.transformer.resblocks.6.ln_2.weight
+clip_model.visual.transformer.resblocks.6.ln_2.bias
+clip_model.visual.transformer.resblocks.7.ln_1.weight
+clip_model.visual.transformer.resblocks.7.ln_1.bias
+clip_model.visual.transformer.resblocks.7.ln_2.weight
+clip_model.visual.transformer.resblocks.7.ln_2.bias
+clip_model.visual.transformer.resblocks.8.ln_1.weight
+clip_model.visual.transformer.resblocks.8.ln_1.bias
+clip_model.visual.transformer.resblocks.8.ln_2.weight
+clip_model.visual.transformer.resblocks.8.ln_2.bias
+clip_model.visual.transformer.resblocks.9.ln_1.weight
+clip_model.visual.transformer.resblocks.9.ln_1.bias
+clip_model.visual.transformer.resblocks.9.ln_2.weight
+clip_model.visual.transformer.resblocks.9.ln_2.bias
+clip_model.visual.transformer.resblocks.10.ln_1.weight
+clip_model.visual.transformer.resblocks.10.ln_1.bias
+clip_model.visual.transformer.resblocks.10.ln_2.weight
+clip_model.visual.transformer.resblocks.10.ln_2.bias
+clip_model.visual.transformer.resblocks.11.ln_1.weight
+clip_model.visual.transformer.resblocks.11.ln_1.bias
+clip_model.visual.transformer.resblocks.11.ln_2.weight
+clip_model.visual.transformer.resblocks.11.ln_2.bias
+clip_model.visual.ln_post.weight
+clip_model.visual.ln_post.bias
+query_proj.linear.weight
+key_proj.linear.weight
+value_proj.linear.weight
+-----------------------------------------------------------------------
+Using learning rate: 0.0001
+Set warmup steps = 0
+-----------------------------------------------------------------------
+n_parameters : 1861632
+-----------------------------------------------------------------------
+Auto resume checkpoint: 
+
+Starting training for 15 epochs.
+=====================================
+Epoch: [1/15] Iter:  [ 0/64]  PL_conf: 0.3575 (0.3575)  loss: 13.0021 (13.0021)  acc_local: 20.3125 (20.3125)  acc_global: 45.3125 (45.3125)  acc: 40.6250 (40.6250)  acc_PL: 59.3750 (59.3750)
+Epoch: [1/15] Iter:  [10/64]  PL_conf: 0.3633 (0.3633)  loss: 11.9431 (11.9431)  acc_local: 15.4830 (15.4830)  acc_global: 46.3068 (46.3068)  acc: 42.0455 (42.0455)  acc_PL: 66.7614 (66.7614)
+Epoch: [1/15] Iter:  [20/64]  PL_conf: 0.3641 (0.3638)  loss: 11.6936 (11.7559)  acc_local: 17.8906 (18.0060)  acc_global: 46.1719 (46.1310)  acc: 42.0312 (41.9643)  acc_PL: 65.3125 (65.0298)
+Epoch: [1/15] Iter:  [30/64]  PL_conf: 0.3631 (0.3632)  loss: 11.4082 (11.5980)  acc_local: 21.8750 (19.6069)  acc_global: 47.2656 (46.9254)  acc: 43.5156 (42.9940)  acc_PL: 63.8281 (64.8690)
+Epoch: [1/15] Iter:  [40/64]  PL_conf: 0.3623 (0.3631)  loss: 11.2498 (11.5090)  acc_local: 26.9531 (22.3704)  acc_global: 49.6094 (47.8277)  acc: 47.6562 (44.7409)  acc_PL: 67.3438 (66.1585)
+Epoch: [1/15] Iter:  [50/64]  PL_conf: 0.3635 (0.3633)  loss: 11.1751 (11.4322)  acc_local: 28.8281 (23.2230)  acc_global: 50.8594 (48.4681)  acc: 50.3125 (45.8640)  acc_PL: 71.6406 (67.5245)
+Epoch: [1/15] Iter:  [60/64]  PL_conf: 0.3642 (0.3634)  loss: 11.1263 (11.3836)  acc_local: 29.9219 (24.8463)  acc_global: 51.3281 (48.9754)  acc: 51.8750 (47.0799)  acc_PL: 72.8906 (68.3658)
+Epoch: [1/15] Iter:  [63/64]  PL_conf: 0.3647 (0.3636)  loss: 11.1051 (11.3665)  acc_local: 31.0886 (25.3158)  acc_global: 51.6739 (49.0827)  acc: 52.3847 (47.3761)  acc_PL: 72.9585 (68.4294)
+Epoch: [1/15] Iter: Total time: 0:01:14 (1.1620 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 0 : PL_conf: 0.3647 (0.3636)  loss: 11.1051 (11.3665)  acc_local: 31.0886 (25.3158)  acc_global: 51.6739 (49.0827)  acc: 52.3847 (47.3761)  acc_PL: 72.9585 (68.4294), Time: 74.37s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 70.7031 (70.7031)
+Test:  [ 9/10]  acc: 70.6159 (70.5238)
+Test: Total time: 0:00:06 (0.6509 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 47	acc: 81.03%
+* class: 87 (cyclamen)	total: 46	correct: 38	acc: 82.61%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 50	acc: 84.75%
+* class: 73 (rose)	total: 51	correct: 51	acc: 100.00%
+* class: 50 (petunia)	total: 77	correct: 25	acc: 32.47%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 34	acc: 100.00%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 38	acc: 90.48%
+* class: 79 (anthurium)	total: 32	correct: 30	acc: 93.75%
+* class: 74 (thorn apple)	total: 36	correct: 8	acc: 22.22%
+* class: 40 (barbeton daisy)	total: 38	correct: 10	acc: 26.32%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 28	acc: 87.50%
+* class: 83 (columbine)	total: 26	correct: 23	acc: 88.46%
+* class: 57 (geranium)	total: 34	correct: 1	acc: 2.94%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 10	acc: 58.82%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 29	acc: 87.88%
+* class: 91 (bee balm)	total: 20	correct: 19	acc: 95.00%
+* class: 10 (snapdragon)	total: 26	correct: 21	acc: 80.77%
+* class: 64 (californian poppy)	total: 31	correct: 27	acc: 87.10%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 28	acc: 96.55%
+* class: 52 (primula)	total: 28	correct: 25	acc: 89.29%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 20	acc: 80.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 15	acc: 68.18%
+* class: 89 (canna lily)	total: 25	correct: 17	acc: 68.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 15	acc: 83.33%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 14	acc: 82.35%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 20	acc: 100.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 6	acc: 30.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 13	acc: 68.42%
+* class: 21 (pincushion flower)	total: 17	correct: 15	acc: 88.24%
+* class: 53 (sunflower)	total: 19	correct: 18	acc: 94.74%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 12	acc: 70.59%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 0	acc: 0.00%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 1	acc: 7.14%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 3	acc: 18.75%
+* class: 18 (balloon flower)	total: 15	correct: 12	acc: 80.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 11	acc: 78.57%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 12	acc: 92.31%
+* class: 0 (pink primrose)	total: 12	correct: 5	acc: 41.67%
+* class: 20 (fire lily)	total: 12	correct: 7	acc: 58.33%
+* class: 23 (red ginger)	total: 13	correct: 1	acc: 7.69%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 12	acc: 75.00%
+* class: 33 (mexican aster)	total: 12	correct: 4	acc: 33.33%
+* class: 34 (alpine sea holly)	total: 12	correct: 7	acc: 58.33%
+* class: 38 (siam tulip)	total: 13	correct: 6	acc: 46.15%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 13	acc: 92.86%
+* class: 44 (bolero deep blue)	total: 12	correct: 0	acc: 0.00%
+* class: 5 (tiger lily)	total: 14	correct: 13	acc: 92.86%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 20	acc: 100.00%
+* class: 61 (japanese anemone)	total: 16	correct: 14	acc: 87.50%
+* class: 93 (foxglove)	total: 49	correct: 47	acc: 95.92%
+* class: 94 (bougainvillea)	total: 38	correct: 28	acc: 73.68%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 17	acc: 68.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 9	acc: 52.94%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 80.93%
+* Harmonic Mean Accuracy: 49.51%
+
+Accuracy of the network on the 2463 test images: 70.52%
+Epoch: [2/15] Iter:  [ 0/64]  PL_conf: 0.3680 (0.3680)  loss: 11.3816 (11.3816)  acc_local: 37.5000 (37.5000)  acc_global: 48.4375 (48.4375)  acc: 48.4375 (48.4375)  acc_PL: 62.5000 (62.5000)
+Epoch: [2/15] Iter:  [10/64]  PL_conf: 0.3645 (0.3645)  loss: 11.0305 (11.0305)  acc_local: 40.4830 (40.4830)  acc_global: 52.8409 (52.8409)  acc: 54.9716 (54.9716)  acc_PL: 71.1648 (71.1648)
+Epoch: [2/15] Iter:  [20/64]  PL_conf: 0.3647 (0.3649)  loss: 11.0232 (11.0403)  acc_local: 40.3125 (40.1786)  acc_global: 52.0312 (51.8601)  acc: 54.5312 (54.2411)  acc_PL: 70.8594 (70.4613)
+Epoch: [2/15] Iter:  [30/64]  PL_conf: 0.3654 (0.3651)  loss: 10.9743 (10.9942)  acc_local: 38.8281 (39.4153)  acc_global: 53.3594 (53.1754)  acc: 56.0156 (55.6452)  acc_PL: 71.5625 (71.4214)
+Epoch: [2/15] Iter:  [40/64]  PL_conf: 0.3655 (0.3652)  loss: 10.8855 (10.9648)  acc_local: 39.3750 (39.7866)  acc_global: 53.5156 (52.6677)  acc: 56.3281 (55.2591)  acc_PL: 71.7188 (71.0747)
+Epoch: [2/15] Iter:  [50/64]  PL_conf: 0.3662 (0.3655)  loss: 10.8422 (10.9346)  acc_local: 41.7188 (40.3186)  acc_global: 51.0156 (52.3284)  acc: 54.3750 (55.1471)  acc_PL: 71.0938 (71.2929)
+Epoch: [2/15] Iter:  [60/64]  PL_conf: 0.3673 (0.3659)  loss: 10.8430 (10.9248)  acc_local: 44.0625 (41.1885)  acc_global: 51.7969 (52.3822)  acc: 56.4062 (55.6352)  acc_PL: 72.0312 (71.3883)
+Epoch: [2/15] Iter:  [63/64]  PL_conf: 0.3674 (0.3660)  loss: 10.8563 (10.9205)  acc_local: 43.8499 (41.4131)  acc_global: 51.9083 (52.4030)  acc: 56.9941 (55.7989)  acc_PL: 72.7472 (71.5616)
+Epoch: [2/15] Iter: Total time: 0:01:11 (1.1247 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 1 : PL_conf: 0.3674 (0.3660)  loss: 10.8563 (10.9205)  acc_local: 43.8499 (41.4131)  acc_global: 51.9083 (52.4030)  acc: 56.9941 (55.7989)  acc_PL: 72.7472 (71.5616), Time: 71.98s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 73.4375 (73.4375)
+Test:  [ 9/10]  acc: 71.3905 (71.2546)
+Test: Total time: 0:00:06 (0.6600 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 75	acc: 100.00%
+* class: 72 (water lily)	total: 58	correct: 49	acc: 84.48%
+* class: 87 (cyclamen)	total: 46	correct: 42	acc: 91.30%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 53	acc: 89.83%
+* class: 73 (rose)	total: 51	correct: 49	acc: 96.08%
+* class: 50 (petunia)	total: 77	correct: 16	acc: 20.78%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 34	acc: 100.00%
+* class: 82 (hibiscus)	total: 39	correct: 38	acc: 97.44%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 18	acc: 50.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 13	acc: 34.21%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 30	acc: 93.75%
+* class: 83 (columbine)	total: 26	correct: 23	acc: 88.46%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 10	acc: 58.82%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 33	acc: 100.00%
+* class: 91 (bee balm)	total: 20	correct: 19	acc: 95.00%
+* class: 10 (snapdragon)	total: 26	correct: 16	acc: 61.54%
+* class: 64 (californian poppy)	total: 31	correct: 27	acc: 87.10%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 20	acc: 76.92%
+* class: 71 (azalea)	total: 29	correct: 28	acc: 96.55%
+* class: 52 (primula)	total: 28	correct: 23	acc: 82.14%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 25	acc: 96.15%
+* class: 28 (artichoke)	total: 23	correct: 21	acc: 91.30%
+* class: 51 (wild pansy)	total: 26	correct: 25	acc: 96.15%
+* class: 17 (peruvian lily)	total: 25	correct: 18	acc: 72.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 12	acc: 54.55%
+* class: 89 (canna lily)	total: 25	correct: 17	acc: 68.00%
+* class: 70 (gazania)	total: 23	correct: 21	acc: 91.30%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 14	acc: 70.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 15	acc: 78.95%
+* class: 21 (pincushion flower)	total: 17	correct: 13	acc: 76.47%
+* class: 53 (sunflower)	total: 19	correct: 17	acc: 89.47%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 7	acc: 41.18%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 2	acc: 11.76%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 11	acc: 68.75%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 0	acc: 0.00%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 4	acc: 25.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 26	acc: 92.86%
+* class: 14 (yellow iris)	total: 15	correct: 12	acc: 80.00%
+* class: 8 (monkshood)	total: 14	correct: 13	acc: 92.86%
+* class: 32 (love in the mist)	total: 14	correct: 2	acc: 14.29%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 12	acc: 92.31%
+* class: 0 (pink primrose)	total: 12	correct: 4	acc: 33.33%
+* class: 20 (fire lily)	total: 12	correct: 7	acc: 58.33%
+* class: 23 (red ginger)	total: 13	correct: 3	acc: 23.08%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 15	acc: 93.75%
+* class: 33 (mexican aster)	total: 12	correct: 8	acc: 66.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 5	acc: 41.67%
+* class: 38 (siam tulip)	total: 13	correct: 5	acc: 38.46%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 15	acc: 93.75%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 28	acc: 73.68%
+* class: 95 (camellia)	total: 27	correct: 26	acc: 96.30%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 20	acc: 80.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 8	acc: 47.06%
+* class: 101 (blackberry lily)	total: 14	correct: 13	acc: 92.86%
+
+* Mean Accuracy: 80.26%
+* Harmonic Mean Accuracy: 55.24%
+
+Accuracy of the network on the 2463 test images: 71.25%
+Epoch: [3/15] Iter:  [ 0/64]  PL_conf: 0.3704 (0.3704)  loss: 11.3047 (11.3047)  acc_local: 48.4375 (48.4375)  acc_global: 67.1875 (67.1875)  acc: 65.6250 (65.6250)  acc_PL: 84.3750 (84.3750)
+Epoch: [3/15] Iter:  [10/64]  PL_conf: 0.3666 (0.3666)  loss: 10.8430 (10.8430)  acc_local: 46.4489 (46.4489)  acc_global: 55.2557 (55.2557)  acc: 60.5114 (60.5114)  acc_PL: 74.8580 (74.8580)
+Epoch: [3/15] Iter:  [20/64]  PL_conf: 0.3670 (0.3672)  loss: 10.8088 (10.8324)  acc_local: 46.0156 (46.1310)  acc_global: 53.7500 (54.3899)  acc: 57.7344 (58.1101)  acc_PL: 72.1094 (72.6935)
+Epoch: [3/15] Iter:  [30/64]  PL_conf: 0.3688 (0.3680)  loss: 10.8457 (10.8448)  acc_local: 46.3281 (46.3710)  acc_global: 52.0312 (53.1754)  acc: 54.9219 (56.9052)  acc_PL: 69.4531 (71.3710)
+Epoch: [3/15] Iter:  [40/64]  PL_conf: 0.3695 (0.3683)  loss: 10.8103 (10.8216)  acc_local: 49.3750 (47.7134)  acc_global: 52.0312 (53.2393)  acc: 58.0469 (58.0793)  acc_PL: 71.0156 (71.8750)
+Epoch: [3/15] Iter:  [50/64]  PL_conf: 0.3701 (0.3688)  loss: 10.7738 (10.8169)  acc_local: 49.7656 (47.7022)  acc_global: 54.2188 (53.5846)  acc: 60.3906 (58.2721)  acc_PL: 72.8125 (71.9363)
+Epoch: [3/15] Iter:  [60/64]  PL_conf: 0.3703 (0.3690)  loss: 10.7651 (10.8031)  acc_local: 48.2031 (47.8740)  acc_global: 54.8438 (53.7654)  acc: 58.7500 (58.2992)  acc_PL: 71.0938 (71.6189)
+Epoch: [3/15] Iter:  [63/64]  PL_conf: 0.3705 (0.3691)  loss: 10.7720 (10.8037)  acc_local: 48.1352 (47.7083)  acc_global: 55.1972 (53.7970)  acc: 59.1073 (58.3636)  acc_PL: 71.8135 (71.7093)
+Epoch: [3/15] Iter: Total time: 0:01:13 (1.1417 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 2 : PL_conf: 0.3705 (0.3691)  loss: 10.7720 (10.8037)  acc_local: 48.1352 (47.7083)  acc_global: 55.1972 (53.7970)  acc: 59.1073 (58.3636)  acc_PL: 71.8135 (71.7093), Time: 73.07s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 69.1406 (69.1406)
+Test:  [ 9/10]  acc: 72.5929 (72.5538)
+Test: Total time: 0:00:06 (0.6511 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 44	acc: 75.86%
+* class: 87 (cyclamen)	total: 46	correct: 37	acc: 80.43%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 50	acc: 100.00%
+* class: 45 (wallflower)	total: 59	correct: 56	acc: 94.92%
+* class: 73 (rose)	total: 51	correct: 49	acc: 96.08%
+* class: 50 (petunia)	total: 77	correct: 11	acc: 14.29%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 33	acc: 97.06%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 37	acc: 88.10%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 29	acc: 80.56%
+* class: 40 (barbeton daisy)	total: 38	correct: 20	acc: 52.63%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 31	acc: 96.88%
+* class: 83 (columbine)	total: 26	correct: 23	acc: 88.46%
+* class: 57 (geranium)	total: 34	correct: 7	acc: 20.59%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 12	acc: 70.59%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 24	acc: 92.31%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 23	acc: 88.46%
+* class: 71 (azalea)	total: 29	correct: 23	acc: 79.31%
+* class: 52 (primula)	total: 28	correct: 15	acc: 53.57%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 23	acc: 88.46%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 15	acc: 68.18%
+* class: 89 (canna lily)	total: 25	correct: 17	acc: 68.00%
+* class: 70 (gazania)	total: 23	correct: 22	acc: 95.65%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 16	acc: 94.12%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 12	acc: 60.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 14	acc: 73.68%
+* class: 21 (pincushion flower)	total: 17	correct: 15	acc: 88.24%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 9	acc: 52.94%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 2	acc: 11.76%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 10	acc: 62.50%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 0	acc: 0.00%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 2	acc: 14.29%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 5	acc: 41.67%
+* class: 20 (fire lily)	total: 12	correct: 5	acc: 41.67%
+* class: 23 (red ginger)	total: 13	correct: 7	acc: 53.85%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 9	acc: 75.00%
+* class: 34 (alpine sea holly)	total: 12	correct: 4	acc: 33.33%
+* class: 38 (siam tulip)	total: 13	correct: 6	acc: 46.15%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 13	acc: 92.86%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 45	acc: 91.84%
+* class: 94 (bougainvillea)	total: 38	correct: 27	acc: 71.05%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 20	acc: 80.00%
+* class: 98 (bromelia)	total: 18	correct: 16	acc: 88.89%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 9	acc: 52.94%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 82.09%
+* Harmonic Mean Accuracy: 56.23%
+
+Accuracy of the network on the 2463 test images: 72.55%
+Epoch: [4/15] Iter:  [ 0/64]  PL_conf: 0.3692 (0.3692)  loss: 10.9384 (10.9384)  acc_local: 54.6875 (54.6875)  acc_global: 62.5000 (62.5000)  acc: 70.3125 (70.3125)  acc_PL: 78.1250 (78.1250)
+Epoch: [4/15] Iter:  [10/64]  PL_conf: 0.3688 (0.3688)  loss: 10.8049 (10.8049)  acc_local: 48.2955 (48.2955)  acc_global: 50.4261 (50.4261)  acc: 57.5284 (57.5284)  acc_PL: 71.0227 (71.0227)
+Epoch: [4/15] Iter:  [20/64]  PL_conf: 0.3691 (0.3691)  loss: 10.7483 (10.7574)  acc_local: 48.1250 (48.4375)  acc_global: 52.5781 (53.0506)  acc: 58.5938 (59.1518)  acc_PL: 71.0156 (71.3542)
+Epoch: [4/15] Iter:  [30/64]  PL_conf: 0.3700 (0.3696)  loss: 10.7355 (10.7601)  acc_local: 49.7656 (49.2440)  acc_global: 53.9844 (52.7218)  acc: 60.3906 (59.3750)  acc_PL: 72.8906 (72.2278)
+Epoch: [4/15] Iter:  [40/64]  PL_conf: 0.3712 (0.3701)  loss: 10.7461 (10.7519)  acc_local: 51.5625 (49.9619)  acc_global: 52.0312 (52.5534)  acc: 59.4531 (59.2988)  acc_PL: 73.5938 (72.4466)
+Epoch: [4/15] Iter:  [50/64]  PL_conf: 0.3719 (0.3705)  loss: 10.7020 (10.7373)  acc_local: 51.8750 (50.2757)  acc_global: 52.4219 (52.6042)  acc: 59.5312 (59.4363)  acc_PL: 72.4219 (72.3039)
+Epoch: [4/15] Iter:  [60/64]  PL_conf: 0.3721 (0.3708)  loss: 10.7065 (10.7370)  acc_local: 52.0312 (50.6404)  acc_global: 54.7656 (53.2787)  acc: 59.9219 (59.5031)  acc_PL: 72.7344 (72.5410)
+Epoch: [4/15] Iter:  [63/64]  PL_conf: 0.3724 (0.3709)  loss: 10.6900 (10.7328)  acc_local: 53.5950 (51.1723)  acc_global: 56.8724 (53.7834)  acc: 61.7200 (59.9125)  acc_PL: 74.0241 (72.9372)
+Epoch: [4/15] Iter: Total time: 0:01:12 (1.1277 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 3 : PL_conf: 0.3724 (0.3709)  loss: 10.6900 (10.7328)  acc_local: 53.5950 (51.1723)  acc_global: 56.8724 (53.7834)  acc: 61.7200 (59.9125)  acc_PL: 74.0241 (72.9372), Time: 72.17s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 75.0000 (75.0000)
+Test:  [ 9/10]  acc: 74.6241 (74.6650)
+Test: Total time: 0:00:06 (0.6608 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 75	acc: 100.00%
+* class: 72 (water lily)	total: 58	correct: 54	acc: 93.10%
+* class: 87 (cyclamen)	total: 46	correct: 41	acc: 89.13%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 50	acc: 100.00%
+* class: 45 (wallflower)	total: 59	correct: 55	acc: 93.22%
+* class: 73 (rose)	total: 51	correct: 51	acc: 100.00%
+* class: 50 (petunia)	total: 77	correct: 19	acc: 24.68%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 33	acc: 97.06%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 38	acc: 90.48%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 30	acc: 83.33%
+* class: 40 (barbeton daisy)	total: 38	correct: 21	acc: 55.26%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 30	acc: 93.75%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 13	acc: 76.47%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 33	acc: 100.00%
+* class: 91 (bee balm)	total: 20	correct: 19	acc: 95.00%
+* class: 10 (snapdragon)	total: 26	correct: 24	acc: 92.31%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 24	acc: 92.31%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 27	acc: 96.43%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 22	acc: 95.65%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 23	acc: 92.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 19	acc: 86.36%
+* class: 89 (canna lily)	total: 25	correct: 16	acc: 64.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 18	acc: 90.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 16	acc: 88.89%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 14	acc: 70.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 7	acc: 41.18%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 0	acc: 0.00%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 13	acc: 86.67%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 7	acc: 58.33%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 5	acc: 41.67%
+* class: 20 (fire lily)	total: 12	correct: 9	acc: 75.00%
+* class: 23 (red ginger)	total: 13	correct: 8	acc: 61.54%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 10	acc: 83.33%
+* class: 34 (alpine sea holly)	total: 12	correct: 11	acc: 91.67%
+* class: 38 (siam tulip)	total: 13	correct: 8	acc: 61.54%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 13	acc: 92.86%
+* class: 6 (moon orchid)	total: 12	correct: 11	acc: 91.67%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 43	acc: 87.76%
+* class: 94 (bougainvillea)	total: 38	correct: 29	acc: 76.32%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 18	acc: 72.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 10	acc: 58.82%
+* class: 101 (blackberry lily)	total: 14	correct: 13	acc: 92.86%
+
+* Mean Accuracy: 85.37%
+* Harmonic Mean Accuracy: 58.50%
+
+Accuracy of the network on the 2463 test images: 74.67%
+Epoch: [5/15] Iter:  [ 0/64]  PL_conf: 0.3783 (0.3783)  loss: 11.4301 (11.4301)  acc_local: 56.2500 (56.2500)  acc_global: 62.5000 (62.5000)  acc: 64.0625 (64.0625)  acc_PL: 75.0000 (75.0000)
+Epoch: [5/15] Iter:  [10/64]  PL_conf: 0.3735 (0.3735)  loss: 10.7808 (10.7808)  acc_local: 54.2614 (54.2614)  acc_global: 57.5284 (57.5284)  acc: 63.2102 (63.2102)  acc_PL: 73.5795 (73.5795)
+Epoch: [5/15] Iter:  [20/64]  PL_conf: 0.3723 (0.3726)  loss: 10.6921 (10.7273)  acc_local: 54.6094 (54.6875)  acc_global: 56.0938 (56.3988)  acc: 62.5000 (62.5744)  acc_PL: 72.8906 (72.9911)
+Epoch: [5/15] Iter:  [30/64]  PL_conf: 0.3717 (0.3724)  loss: 10.6874 (10.7206)  acc_local: 53.7500 (53.9315)  acc_global: 54.6875 (55.6956)  acc: 61.4844 (62.0968)  acc_PL: 71.6406 (72.3286)
+Epoch: [5/15] Iter:  [40/64]  PL_conf: 0.3726 (0.3726)  loss: 10.7135 (10.7206)  acc_local: 54.2969 (54.4970)  acc_global: 54.4531 (55.4497)  acc: 61.7969 (62.1951)  acc_PL: 72.6562 (72.8277)
+Epoch: [5/15] Iter:  [50/64]  PL_conf: 0.3732 (0.3727)  loss: 10.6740 (10.7023)  acc_local: 54.1406 (54.0135)  acc_global: 54.2969 (55.1471)  acc: 62.7344 (62.3468)  acc_PL: 73.9062 (72.9473)
+Epoch: [5/15] Iter:  [60/64]  PL_conf: 0.3726 (0.3726)  loss: 10.6425 (10.6950)  acc_local: 52.3438 (53.7910)  acc_global: 54.2969 (55.0717)  acc: 61.7969 (62.0645)  acc_PL: 72.9688 (72.8740)
+Epoch: [5/15] Iter:  [63/64]  PL_conf: 0.3721 (0.3725)  loss: 10.6211 (10.6853)  acc_local: 52.8573 (53.8958)  acc_global: 54.4826 (55.0629)  acc: 62.4936 (62.2539)  acc_PL: 73.1301 (72.8776)
+Epoch: [5/15] Iter: Total time: 0:01:12 (1.1257 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 4 : PL_conf: 0.3721 (0.3725)  loss: 10.6211 (10.6853)  acc_local: 52.8573 (53.8958)  acc_global: 54.4826 (55.0629)  acc: 62.4936 (62.2539)  acc_PL: 73.1301 (72.8776), Time: 72.04s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 68.7500 (68.7500)
+Test:  [ 9/10]  acc: 73.8925 (73.7312)
+Test: Total time: 0:00:06 (0.6555 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 72	acc: 96.00%
+* class: 72 (water lily)	total: 58	correct: 43	acc: 74.14%
+* class: 87 (cyclamen)	total: 46	correct: 39	acc: 84.78%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 54	acc: 91.53%
+* class: 73 (rose)	total: 51	correct: 49	acc: 96.08%
+* class: 50 (petunia)	total: 77	correct: 16	acc: 20.78%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 30	acc: 88.24%
+* class: 82 (hibiscus)	total: 39	correct: 38	acc: 97.44%
+* class: 77 (lotus)	total: 42	correct: 37	acc: 88.10%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 35	acc: 97.22%
+* class: 40 (barbeton daisy)	total: 38	correct: 27	acc: 71.05%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 27	acc: 84.38%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 23	acc: 88.46%
+* class: 64 (californian poppy)	total: 31	correct: 27	acc: 87.10%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 23	acc: 79.31%
+* class: 52 (primula)	total: 28	correct: 24	acc: 85.71%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 25	acc: 96.15%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 19	acc: 76.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 14	acc: 63.64%
+* class: 89 (canna lily)	total: 25	correct: 20	acc: 80.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 21	acc: 91.30%
+* class: 19 (giant white arum lily)	total: 17	correct: 14	acc: 82.35%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 17	acc: 85.00%
+* class: 27 (stemless gentian)	total: 20	correct: 17	acc: 85.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 17	acc: 89.47%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 14	acc: 73.68%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 8	acc: 47.06%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 1	acc: 5.88%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 8	acc: 50.00%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 12	acc: 80.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 14	acc: 93.33%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 5	acc: 41.67%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 8	acc: 66.67%
+* class: 20 (fire lily)	total: 12	correct: 7	acc: 58.33%
+* class: 23 (red ginger)	total: 13	correct: 10	acc: 76.92%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 10	acc: 83.33%
+* class: 34 (alpine sea holly)	total: 12	correct: 10	acc: 83.33%
+* class: 38 (siam tulip)	total: 13	correct: 8	acc: 61.54%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 2	acc: 16.67%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 32	acc: 84.21%
+* class: 95 (camellia)	total: 27	correct: 26	acc: 96.30%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 19	acc: 76.00%
+* class: 98 (bromelia)	total: 18	correct: 17	acc: 94.44%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 12	acc: 70.59%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 83.95%
+* Harmonic Mean Accuracy: 54.85%
+
+Accuracy of the network on the 2463 test images: 73.73%
+Epoch: [6/15] Iter:  [ 0/64]  PL_conf: 0.3671 (0.3671)  loss: 11.4862 (11.4862)  acc_local: 40.6250 (40.6250)  acc_global: 43.7500 (43.7500)  acc: 48.4375 (48.4375)  acc_PL: 60.9375 (60.9375)
+Epoch: [6/15] Iter:  [10/64]  PL_conf: 0.3713 (0.3713)  loss: 10.6694 (10.6694)  acc_local: 50.7102 (50.7102)  acc_global: 50.8523 (50.8523)  acc: 60.0852 (60.0852)  acc_PL: 68.6080 (68.6080)
+Epoch: [6/15] Iter:  [20/64]  PL_conf: 0.3732 (0.3729)  loss: 10.5909 (10.6335)  acc_local: 53.5156 (52.9018)  acc_global: 54.4531 (53.9435)  acc: 63.2812 (62.5744)  acc_PL: 73.0469 (72.4702)
+Epoch: [6/15] Iter:  [30/64]  PL_conf: 0.3741 (0.3731)  loss: 10.5973 (10.6229)  acc_local: 55.8594 (54.0323)  acc_global: 55.5469 (53.8810)  acc: 63.7500 (62.4496)  acc_PL: 74.4531 (72.3790)
+Epoch: [6/15] Iter:  [40/64]  PL_conf: 0.3733 (0.3731)  loss: 10.6151 (10.6245)  acc_local: 57.4219 (55.1067)  acc_global: 54.0625 (54.0015)  acc: 62.3438 (62.4619)  acc_PL: 72.8125 (72.6372)
+Epoch: [6/15] Iter:  [50/64]  PL_conf: 0.3731 (0.3731)  loss: 10.6224 (10.6227)  acc_local: 58.0469 (55.6066)  acc_global: 54.7656 (54.2279)  acc: 63.8281 (62.9902)  acc_PL: 74.4531 (73.1924)
+Epoch: [6/15] Iter:  [60/64]  PL_conf: 0.3728 (0.3730)  loss: 10.6093 (10.6195)  acc_local: 56.7188 (55.6352)  acc_global: 55.4688 (54.4826)  acc: 63.9062 (62.9355)  acc_PL: 74.6094 (73.2838)
+Epoch: [6/15] Iter:  [63/64]  PL_conf: 0.3724 (0.3730)  loss: 10.5896 (10.6132)  acc_local: 56.3064 (55.7793)  acc_global: 55.8376 (54.5098)  acc: 63.6770 (63.0387)  acc_PL: 74.4032 (73.2998)
+Epoch: [6/15] Iter: Total time: 0:01:11 (1.1209 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 5 : PL_conf: 0.3724 (0.3730)  loss: 10.5896 (10.6132)  acc_local: 56.3064 (55.7793)  acc_global: 55.8376 (54.5098)  acc: 63.6770 (63.0387)  acc_PL: 74.4032 (73.2998), Time: 71.74s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 71.8750 (71.8750)
+Test:  [ 9/10]  acc: 74.3222 (74.1778)
+Test: Total time: 0:00:06 (0.6612 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 48	acc: 82.76%
+* class: 87 (cyclamen)	total: 46	correct: 40	acc: 86.96%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 52	acc: 88.14%
+* class: 73 (rose)	total: 51	correct: 50	acc: 98.04%
+* class: 50 (petunia)	total: 77	correct: 10	acc: 12.99%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 31	acc: 91.18%
+* class: 82 (hibiscus)	total: 39	correct: 38	acc: 97.44%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 27	acc: 71.05%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 25	acc: 78.12%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 16	acc: 94.12%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 22	acc: 84.62%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 24	acc: 85.71%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 23	acc: 92.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 10	acc: 45.45%
+* class: 89 (canna lily)	total: 25	correct: 20	acc: 80.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 14	acc: 82.35%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 18	acc: 90.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 12	acc: 70.59%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 0	acc: 0.00%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 10	acc: 62.50%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 15	acc: 100.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 13	acc: 86.67%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 4	acc: 33.33%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 5	acc: 41.67%
+* class: 20 (fire lily)	total: 12	correct: 8	acc: 66.67%
+* class: 23 (red ginger)	total: 13	correct: 9	acc: 69.23%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 8	acc: 66.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 11	acc: 91.67%
+* class: 38 (siam tulip)	total: 13	correct: 2	acc: 15.38%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 0	acc: 0.00%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 30	acc: 78.95%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 18	acc: 72.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 14	acc: 82.35%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 88.15%
+* Harmonic Mean Accuracy: 74.00%
+
+Accuracy of the network on the 2463 test images: 74.18%
+Epoch: [7/15] Iter:  [ 0/64]  PL_conf: 0.3748 (0.3748)  loss: 11.1309 (11.1309)  acc_local: 62.5000 (62.5000)  acc_global: 57.8125 (57.8125)  acc: 67.1875 (67.1875)  acc_PL: 79.6875 (79.6875)
+Epoch: [7/15] Iter:  [10/64]  PL_conf: 0.3736 (0.3736)  loss: 10.6226 (10.6226)  acc_local: 57.6705 (57.6705)  acc_global: 55.1136 (55.1136)  acc: 61.9318 (61.9318)  acc_PL: 72.4432 (72.4432)
+Epoch: [7/15] Iter:  [20/64]  PL_conf: 0.3733 (0.3734)  loss: 10.6144 (10.6390)  acc_local: 56.1719 (56.4732)  acc_global: 54.3750 (54.5387)  acc: 63.2812 (63.4673)  acc_PL: 72.8125 (73.1399)
+Epoch: [7/15] Iter:  [30/64]  PL_conf: 0.3732 (0.3733)  loss: 10.6136 (10.6168)  acc_local: 56.5625 (56.9556)  acc_global: 53.9062 (54.3347)  acc: 64.1406 (63.3569)  acc_PL: 73.5938 (73.1855)
+Epoch: [7/15] Iter:  [40/64]  PL_conf: 0.3730 (0.3732)  loss: 10.5492 (10.5952)  acc_local: 56.7188 (56.5930)  acc_global: 53.6719 (54.1159)  acc: 62.1094 (62.8049)  acc_PL: 71.7188 (72.4466)
+Epoch: [7/15] Iter:  [50/64]  PL_conf: 0.3731 (0.3732)  loss: 10.5461 (10.5891)  acc_local: 55.4688 (56.3725)  acc_global: 54.8438 (54.5343)  acc: 62.4219 (62.9902)  acc_PL: 71.9531 (72.7022)
+Epoch: [7/15] Iter:  [60/64]  PL_conf: 0.3732 (0.3732)  loss: 10.5688 (10.5865)  acc_local: 57.0312 (56.7367)  acc_global: 56.3281 (54.8412)  acc: 63.7500 (63.1148)  acc_PL: 74.7656 (73.2070)
+Epoch: [7/15] Iter:  [63/64]  PL_conf: 0.3732 (0.3732)  loss: 10.5695 (10.5869)  acc_local: 57.0095 (56.9268)  acc_global: 54.9590 (54.6259)  acc: 63.5054 (63.2292)  acc_PL: 74.3135 (73.3206)
+Epoch: [7/15] Iter: Total time: 0:01:11 (1.1145 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 6 : PL_conf: 0.3732 (0.3732)  loss: 10.5695 (10.5869)  acc_local: 57.0095 (56.9268)  acc_global: 54.9590 (54.6259)  acc: 63.5054 (63.2292)  acc_PL: 74.3135 (73.3206), Time: 71.33s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 73.8281 (73.8281)
+Test:  [ 9/10]  acc: 75.1749 (74.9898)
+Test: Total time: 0:00:06 (0.6560 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 75	acc: 100.00%
+* class: 72 (water lily)	total: 58	correct: 49	acc: 84.48%
+* class: 87 (cyclamen)	total: 46	correct: 43	acc: 93.48%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 54	acc: 91.53%
+* class: 73 (rose)	total: 51	correct: 51	acc: 100.00%
+* class: 50 (petunia)	total: 77	correct: 18	acc: 23.38%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 33	acc: 97.06%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 28	acc: 73.68%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 28	acc: 87.50%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 23	acc: 88.46%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 26	acc: 89.66%
+* class: 52 (primula)	total: 28	correct: 22	acc: 78.57%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 25	acc: 96.15%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 12	acc: 54.55%
+* class: 89 (canna lily)	total: 25	correct: 19	acc: 76.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 15	acc: 83.33%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 17	acc: 85.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 14	acc: 77.78%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 9	acc: 52.94%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 1	acc: 5.88%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 1	acc: 7.14%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 14	acc: 93.33%
+* class: 48 (oxeye daisy)	total: 15	correct: 14	acc: 93.33%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 8	acc: 66.67%
+* class: 15 (globe flower)	total: 13	correct: 0	acc: 0.00%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 5	acc: 41.67%
+* class: 20 (fire lily)	total: 12	correct: 8	acc: 66.67%
+* class: 23 (red ginger)	total: 13	correct: 9	acc: 69.23%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 15	acc: 93.75%
+* class: 33 (mexican aster)	total: 12	correct: 9	acc: 75.00%
+* class: 34 (alpine sea holly)	total: 12	correct: 9	acc: 75.00%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 20	acc: 100.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 28	acc: 73.68%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 21	acc: 84.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 15	acc: 88.24%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 86.83%
+* Harmonic Mean Accuracy: 61.53%
+
+Accuracy of the network on the 2463 test images: 74.99%
+Epoch: [8/15] Iter:  [ 0/64]  PL_conf: 0.3729 (0.3729)  loss: 11.2000 (11.2000)  acc_local: 60.9375 (60.9375)  acc_global: 51.5625 (51.5625)  acc: 67.1875 (67.1875)  acc_PL: 70.3125 (70.3125)
+Epoch: [8/15] Iter:  [10/64]  PL_conf: 0.3735 (0.3735)  loss: 10.6327 (10.6327)  acc_local: 59.5170 (59.5170)  acc_global: 56.5341 (56.5341)  acc: 64.4886 (64.4886)  acc_PL: 71.3068 (71.3068)
+Epoch: [8/15] Iter:  [20/64]  PL_conf: 0.3741 (0.3740)  loss: 10.5838 (10.6132)  acc_local: 57.1094 (57.2917)  acc_global: 55.7031 (55.5060)  acc: 63.1250 (63.3185)  acc_PL: 72.9688 (72.8423)
+Epoch: [8/15] Iter:  [30/64]  PL_conf: 0.3746 (0.3742)  loss: 10.5533 (10.5815)  acc_local: 57.4219 (58.1653)  acc_global: 55.1562 (55.6452)  acc: 63.8281 (64.0625)  acc_PL: 73.9844 (73.0343)
+Epoch: [8/15] Iter:  [40/64]  PL_conf: 0.3752 (0.3746)  loss: 10.5610 (10.5877)  acc_local: 59.0625 (58.1555)  acc_global: 55.8594 (55.6784)  acc: 64.5312 (63.9101)  acc_PL: 72.4219 (72.6372)
+Epoch: [8/15] Iter:  [50/64]  PL_conf: 0.3751 (0.3746)  loss: 10.5644 (10.5748)  acc_local: 58.9844 (58.4865)  acc_global: 56.4844 (55.9743)  acc: 65.7031 (64.7059)  acc_PL: 73.3594 (73.1618)
+Epoch: [8/15] Iter:  [60/64]  PL_conf: 0.3741 (0.3744)  loss: 10.5426 (10.5730)  acc_local: 59.1406 (58.4785)  acc_global: 55.7031 (55.6865)  acc: 64.9219 (64.2418)  acc_PL: 74.2969 (73.1814)
+Epoch: [8/15] Iter:  [63/64]  PL_conf: 0.3740 (0.3744)  loss: 10.5362 (10.5696)  acc_local: 58.5643 (58.3648)  acc_global: 55.5328 (55.7329)  acc: 64.5325 (64.3070)  acc_PL: 73.8563 (73.2022)
+Epoch: [8/15] Iter: Total time: 0:01:11 (1.1112 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 7 : PL_conf: 0.3740 (0.3744)  loss: 10.5362 (10.5696)  acc_local: 58.5643 (58.3648)  acc_global: 55.5328 (55.7329)  acc: 64.5325 (64.3070)  acc_PL: 73.8563 (73.2022), Time: 71.12s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 71.0938 (71.0938)
+Test:  [ 9/10]  acc: 75.0015 (74.9086)
+Test: Total time: 0:00:06 (0.6633 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 46	acc: 79.31%
+* class: 87 (cyclamen)	total: 46	correct: 40	acc: 86.96%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 55	acc: 93.22%
+* class: 73 (rose)	total: 51	correct: 50	acc: 98.04%
+* class: 50 (petunia)	total: 77	correct: 16	acc: 20.78%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 31	acc: 91.18%
+* class: 82 (hibiscus)	total: 39	correct: 38	acc: 97.44%
+* class: 77 (lotus)	total: 42	correct: 35	acc: 83.33%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 24	acc: 63.16%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 29	acc: 90.62%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 1	acc: 2.94%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 14	acc: 82.35%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 22	acc: 84.62%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 24	acc: 92.31%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 25	acc: 89.29%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 22	acc: 95.65%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 11	acc: 50.00%
+* class: 89 (canna lily)	total: 25	correct: 20	acc: 80.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 22	acc: 95.65%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 14	acc: 70.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 17	acc: 89.47%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 13	acc: 76.47%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 2	acc: 11.76%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 15	acc: 100.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 13	acc: 92.86%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 2	acc: 15.38%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 8	acc: 66.67%
+* class: 20 (fire lily)	total: 12	correct: 9	acc: 75.00%
+* class: 23 (red ginger)	total: 13	correct: 5	acc: 38.46%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 12	acc: 100.00%
+* class: 34 (alpine sea holly)	total: 12	correct: 12	acc: 100.00%
+* class: 38 (siam tulip)	total: 13	correct: 8	acc: 61.54%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 3	acc: 25.00%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 20	acc: 100.00%
+* class: 61 (japanese anemone)	total: 16	correct: 15	acc: 93.75%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 25	acc: 65.79%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 19	acc: 76.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 15	acc: 88.24%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 85.71%
+* Harmonic Mean Accuracy: 56.08%
+
+Accuracy of the network on the 2463 test images: 74.91%
+Epoch: [9/15] Iter:  [ 0/64]  PL_conf: 0.3723 (0.3723)  loss: 11.2843 (11.2843)  acc_local: 53.1250 (53.1250)  acc_global: 56.2500 (56.2500)  acc: 60.9375 (60.9375)  acc_PL: 67.1875 (67.1875)
+Epoch: [9/15] Iter:  [10/64]  PL_conf: 0.3735 (0.3735)  loss: 10.6345 (10.6345)  acc_local: 56.6761 (56.6761)  acc_global: 54.5455 (54.5455)  acc: 61.7898 (61.7898)  acc_PL: 70.7386 (70.7386)
+Epoch: [9/15] Iter:  [20/64]  PL_conf: 0.3738 (0.3737)  loss: 10.5655 (10.5998)  acc_local: 58.9844 (58.7054)  acc_global: 55.9375 (55.9524)  acc: 64.0625 (63.9137)  acc_PL: 73.9062 (73.5863)
+Epoch: [9/15] Iter:  [30/64]  PL_conf: 0.3742 (0.3740)  loss: 10.5753 (10.5963)  acc_local: 58.1250 (57.6109)  acc_global: 56.1719 (55.5948)  acc: 63.9062 (63.1552)  acc_PL: 73.5938 (72.5806)
+Epoch: [9/15] Iter:  [40/64]  PL_conf: 0.3745 (0.3741)  loss: 10.5425 (10.5718)  acc_local: 57.8906 (58.3079)  acc_global: 56.2500 (56.0976)  acc: 62.9688 (63.4527)  acc_PL: 72.0312 (72.8277)
+Epoch: [9/15] Iter:  [50/64]  PL_conf: 0.3743 (0.3741)  loss: 10.4709 (10.5471)  acc_local: 59.6875 (58.4252)  acc_global: 57.5781 (56.3725)  acc: 65.4688 (64.0625)  acc_PL: 74.8438 (73.4681)
+Epoch: [9/15] Iter:  [60/64]  PL_conf: 0.3734 (0.3739)  loss: 10.4679 (10.5377)  acc_local: 60.1562 (58.9139)  acc_global: 56.2500 (56.1475)  acc: 66.2500 (64.3699)  acc_PL: 75.7812 (73.7961)
+Epoch: [9/15] Iter:  [63/64]  PL_conf: 0.3727 (0.3738)  loss: 10.4860 (10.5376)  acc_local: 60.3023 (58.9079)  acc_global: 55.5994 (56.0955)  acc: 66.0950 (64.3559)  acc_PL: 75.6493 (73.8601)
+Epoch: [9/15] Iter: Total time: 0:01:11 (1.1128 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 8 : PL_conf: 0.3727 (0.3738)  loss: 10.4860 (10.5376)  acc_local: 60.3023 (58.9079)  acc_global: 55.5994 (56.0955)  acc: 66.0950 (64.3559)  acc_PL: 75.6493 (73.8601), Time: 71.22s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 73.4375 (73.4375)
+Test:  [ 9/10]  acc: 74.7737 (74.7462)
+Test: Total time: 0:00:06 (0.6472 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 75	acc: 100.00%
+* class: 72 (water lily)	total: 58	correct: 48	acc: 82.76%
+* class: 87 (cyclamen)	total: 46	correct: 43	acc: 93.48%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 57	acc: 96.61%
+* class: 73 (rose)	total: 51	correct: 49	acc: 96.08%
+* class: 50 (petunia)	total: 77	correct: 16	acc: 20.78%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 31	acc: 91.18%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 34	acc: 80.95%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 23	acc: 60.53%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 30	acc: 93.75%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 2	acc: 5.88%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 21	acc: 80.77%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 28	acc: 96.55%
+* class: 52 (primula)	total: 28	correct: 19	acc: 67.86%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 23	acc: 88.46%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 25	acc: 96.15%
+* class: 17 (peruvian lily)	total: 25	correct: 23	acc: 92.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 14	acc: 63.64%
+* class: 89 (canna lily)	total: 25	correct: 19	acc: 76.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 16	acc: 88.89%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 14	acc: 82.35%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 17	acc: 85.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 16	acc: 94.12%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 17	acc: 89.47%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 14	acc: 82.35%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 3	acc: 17.65%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 4	acc: 28.57%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 14	acc: 93.33%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 4	acc: 33.33%
+* class: 15 (globe flower)	total: 13	correct: 3	acc: 23.08%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 8	acc: 66.67%
+* class: 20 (fire lily)	total: 12	correct: 9	acc: 75.00%
+* class: 23 (red ginger)	total: 13	correct: 7	acc: 53.85%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 8	acc: 66.67%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 2	acc: 16.67%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 20	acc: 100.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 26	acc: 68.42%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 19	acc: 76.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 11	acc: 64.71%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 85.04%
+* Harmonic Mean Accuracy: 65.06%
+
+Accuracy of the network on the 2463 test images: 74.75%
+Epoch: [10/15] Iter:  [ 0/64]  PL_conf: 0.3724 (0.3724)  loss: 11.2018 (11.2018)  acc_local: 60.9375 (60.9375)  acc_global: 57.8125 (57.8125)  acc: 67.1875 (67.1875)  acc_PL: 70.3125 (70.3125)
+Epoch: [10/15] Iter:  [10/64]  PL_conf: 0.3738 (0.3738)  loss: 10.6189 (10.6189)  acc_local: 60.0852 (60.0852)  acc_global: 54.6875 (54.6875)  acc: 65.1989 (65.1989)  acc_PL: 74.0057 (74.0057)
+Epoch: [10/15] Iter:  [20/64]  PL_conf: 0.3739 (0.3738)  loss: 10.5104 (10.5433)  acc_local: 60.6250 (60.6399)  acc_global: 56.4844 (56.5476)  acc: 65.5469 (65.6250)  acc_PL: 75.4688 (75.2232)
+Epoch: [10/15] Iter:  [30/64]  PL_conf: 0.3733 (0.3735)  loss: 10.5319 (10.5628)  acc_local: 58.0469 (58.7702)  acc_global: 56.7188 (55.9980)  acc: 63.9062 (64.3649)  acc_PL: 74.3750 (74.2440)
+Epoch: [10/15] Iter:  [40/64]  PL_conf: 0.3730 (0.3734)  loss: 10.5430 (10.5432)  acc_local: 57.2656 (58.9939)  acc_global: 56.1719 (56.3643)  acc: 64.7656 (65.2058)  acc_PL: 73.7500 (74.5046)
+Epoch: [10/15] Iter:  [50/64]  PL_conf: 0.3738 (0.3736)  loss: 10.5105 (10.5423)  acc_local: 58.4375 (58.6397)  acc_global: 56.6406 (56.2500)  acc: 66.0938 (65.0429)  acc_PL: 73.9062 (74.1115)
+Epoch: [10/15] Iter:  [60/64]  PL_conf: 0.3748 (0.3739)  loss: 10.4986 (10.5285)  acc_local: 58.4375 (58.8115)  acc_global: 55.9375 (56.2244)  acc: 64.4531 (64.9590)  acc_PL: 72.1875 (73.7449)
+Epoch: [10/15] Iter:  [63/64]  PL_conf: 0.3744 (0.3739)  loss: 10.4996 (10.5303)  acc_local: 59.1265 (59.0532)  acc_global: 56.3806 (56.4373)  acc: 64.3020 (65.1871)  acc_PL: 72.3604 (73.9554)
+Epoch: [10/15] Iter: Total time: 0:01:11 (1.1180 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 9 : PL_conf: 0.3744 (0.3739)  loss: 10.4996 (10.5303)  acc_local: 59.1265 (59.0532)  acc_global: 56.3806 (56.4373)  acc: 64.3020 (65.1871)  acc_PL: 72.3604 (73.9554), Time: 71.55s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 72.6562 (72.6562)
+Test:  [ 9/10]  acc: 74.9147 (74.8680)
+Test: Total time: 0:00:06 (0.6603 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 47	acc: 81.03%
+* class: 87 (cyclamen)	total: 46	correct: 43	acc: 93.48%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 53	acc: 89.83%
+* class: 73 (rose)	total: 51	correct: 50	acc: 98.04%
+* class: 50 (petunia)	total: 77	correct: 11	acc: 14.29%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 33	acc: 97.06%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 35	acc: 83.33%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 26	acc: 68.42%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 31	acc: 96.88%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 16	acc: 94.12%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 23	acc: 88.46%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 26	acc: 100.00%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 24	acc: 92.31%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 24	acc: 85.71%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 23	acc: 88.46%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 12	acc: 54.55%
+* class: 89 (canna lily)	total: 25	correct: 19	acc: 76.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 18	acc: 90.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 16	acc: 80.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 16	acc: 94.12%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 17	acc: 89.47%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 13	acc: 76.47%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 8	acc: 47.06%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 8	acc: 50.00%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 0	acc: 0.00%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 13	acc: 86.67%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 2	acc: 14.29%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 4	acc: 33.33%
+* class: 15 (globe flower)	total: 13	correct: 1	acc: 7.69%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 7	acc: 58.33%
+* class: 20 (fire lily)	total: 12	correct: 10	acc: 83.33%
+* class: 23 (red ginger)	total: 13	correct: 5	acc: 38.46%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 10	acc: 83.33%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 27	acc: 71.05%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 21	acc: 84.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 12	acc: 70.59%
+* class: 101 (blackberry lily)	total: 14	correct: 12	acc: 85.71%
+
+* Mean Accuracy: 85.21%
+* Harmonic Mean Accuracy: 57.57%
+
+Accuracy of the network on the 2463 test images: 74.87%
+Epoch: [11/15] Iter:  [ 0/64]  PL_conf: 0.3695 (0.3695)  loss: 11.1370 (11.1370)  acc_local: 60.9375 (60.9375)  acc_global: 54.6875 (54.6875)  acc: 68.7500 (68.7500)  acc_PL: 75.0000 (75.0000)
+Epoch: [11/15] Iter:  [10/64]  PL_conf: 0.3736 (0.3736)  loss: 10.5951 (10.5951)  acc_local: 56.9602 (56.9602)  acc_global: 51.8466 (51.8466)  acc: 62.2159 (62.2159)  acc_PL: 72.7273 (72.7273)
+Epoch: [11/15] Iter:  [20/64]  PL_conf: 0.3737 (0.3735)  loss: 10.5248 (10.5540)  acc_local: 57.5000 (57.6637)  acc_global: 52.1094 (52.2321)  acc: 62.5000 (62.7976)  acc_PL: 72.1875 (72.3214)
+Epoch: [11/15] Iter:  [30/64]  PL_conf: 0.3744 (0.3741)  loss: 10.4549 (10.5046)  acc_local: 59.7656 (58.7702)  acc_global: 56.3281 (54.7379)  acc: 63.7500 (63.2056)  acc_PL: 73.0469 (72.9335)
+Epoch: [11/15] Iter:  [40/64]  PL_conf: 0.3755 (0.3745)  loss: 10.4464 (10.5015)  acc_local: 61.6406 (59.6037)  acc_global: 58.1250 (55.1067)  acc: 65.5469 (64.1387)  acc_PL: 74.6875 (73.4756)
+Epoch: [11/15] Iter:  [50/64]  PL_conf: 0.3748 (0.3744)  loss: 10.5405 (10.5187)  acc_local: 61.2500 (59.7426)  acc_global: 56.0156 (55.2390)  acc: 66.0938 (64.3382)  acc_PL: 75.0781 (73.7745)
+Epoch: [11/15] Iter:  [60/64]  PL_conf: 0.3745 (0.3745)  loss: 10.5221 (10.5083)  acc_local: 60.5469 (59.9129)  acc_global: 55.9375 (55.3791)  acc: 65.1562 (64.4723)  acc_PL: 74.8438 (73.9242)
+Epoch: [11/15] Iter:  [63/64]  PL_conf: 0.3743 (0.3744)  loss: 10.5189 (10.5099)  acc_local: 59.6657 (59.7832)  acc_global: 55.8453 (55.3179)  acc: 64.6926 (64.3815)  acc_PL: 74.6260 (73.8577)
+Epoch: [11/15] Iter: Total time: 0:01:11 (1.1173 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 10 : PL_conf: 0.3743 (0.3744)  loss: 10.5189 (10.5099)  acc_local: 59.6657 (59.7832)  acc_global: 55.8453 (55.3179)  acc: 64.6926 (64.3815)  acc_PL: 74.6260 (73.8577), Time: 71.50s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 72.6562 (72.6562)
+Test:  [ 9/10]  acc: 75.7046 (75.6395)
+Test: Total time: 0:00:06 (0.6487 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 73	acc: 97.33%
+* class: 72 (water lily)	total: 58	correct: 47	acc: 81.03%
+* class: 87 (cyclamen)	total: 46	correct: 44	acc: 95.65%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 52	acc: 88.14%
+* class: 73 (rose)	total: 51	correct: 50	acc: 98.04%
+* class: 50 (petunia)	total: 77	correct: 25	acc: 32.47%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 32	acc: 94.12%
+* class: 82 (hibiscus)	total: 39	correct: 39	acc: 100.00%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 35	acc: 97.22%
+* class: 40 (barbeton daisy)	total: 38	correct: 23	acc: 60.53%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 28	acc: 87.50%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 33	acc: 100.00%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 23	acc: 88.46%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 25	acc: 89.29%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 23	acc: 88.46%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 12	acc: 54.55%
+* class: 89 (canna lily)	total: 25	correct: 18	acc: 72.00%
+* class: 70 (gazania)	total: 23	correct: 22	acc: 95.65%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 18	acc: 90.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 16	acc: 94.12%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 12	acc: 70.59%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 6	acc: 35.29%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 8	acc: 50.00%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 15	acc: 100.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 13	acc: 92.86%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 5	acc: 41.67%
+* class: 15 (globe flower)	total: 13	correct: 3	acc: 23.08%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 6	acc: 50.00%
+* class: 20 (fire lily)	total: 12	correct: 11	acc: 91.67%
+* class: 23 (red ginger)	total: 13	correct: 8	acc: 61.54%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 8	acc: 66.67%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 47	acc: 95.92%
+* class: 94 (bougainvillea)	total: 38	correct: 27	acc: 71.05%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 22	acc: 88.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 13	acc: 76.47%
+* class: 101 (blackberry lily)	total: 14	correct: 13	acc: 92.86%
+
+* Mean Accuracy: 85.97%
+* Harmonic Mean Accuracy: 64.71%
+
+Accuracy of the network on the 2463 test images: 75.64%
+Epoch: [12/15] Iter:  [ 0/64]  PL_conf: 0.3759 (0.3759)  loss: 10.9377 (10.9377)  acc_local: 60.9375 (60.9375)  acc_global: 67.1875 (67.1875)  acc: 73.4375 (73.4375)  acc_PL: 81.2500 (81.2500)
+Epoch: [12/15] Iter:  [10/64]  PL_conf: 0.3738 (0.3738)  loss: 10.5330 (10.5330)  acc_local: 59.8011 (59.8011)  acc_global: 57.9545 (57.9545)  acc: 66.3352 (66.3352)  acc_PL: 75.1420 (75.1420)
+Epoch: [12/15] Iter:  [20/64]  PL_conf: 0.3739 (0.3740)  loss: 10.4741 (10.4962)  acc_local: 60.3125 (60.3423)  acc_global: 55.1562 (55.7292)  acc: 65.4688 (65.8482)  acc_PL: 73.9844 (74.3304)
+Epoch: [12/15] Iter:  [30/64]  PL_conf: 0.3741 (0.3740)  loss: 10.5027 (10.5135)  acc_local: 59.6875 (59.7278)  acc_global: 54.9219 (55.9980)  acc: 64.0625 (64.8690)  acc_PL: 73.5938 (74.1431)
+Epoch: [12/15] Iter:  [40/64]  PL_conf: 0.3742 (0.3741)  loss: 10.5268 (10.5111)  acc_local: 59.1406 (59.7561)  acc_global: 55.7812 (55.7546)  acc: 62.8906 (64.4055)  acc_PL: 73.6719 (74.0091)
+Epoch: [12/15] Iter:  [50/64]  PL_conf: 0.3744 (0.3741)  loss: 10.4838 (10.5018)  acc_local: 59.6094 (59.6814)  acc_global: 54.7656 (55.5147)  acc: 63.6719 (64.3995)  acc_PL: 73.1250 (73.7439)
+Epoch: [12/15] Iter:  [60/64]  PL_conf: 0.3746 (0.3743)  loss: 10.4675 (10.4968)  acc_local: 61.0938 (60.1947)  acc_global: 55.6250 (55.7121)  acc: 65.3125 (64.7029)  acc_PL: 74.1406 (74.0523)
+Epoch: [12/15] Iter:  [63/64]  PL_conf: 0.3750 (0.3744)  loss: 10.4761 (10.4965)  acc_local: 61.4895 (60.3043)  acc_global: 56.7239 (55.9830)  acc: 66.0284 (64.8233)  acc_PL: 75.0359 (74.1079)
+Epoch: [12/15] Iter: Total time: 0:01:11 (1.1236 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 11 : PL_conf: 0.3750 (0.3744)  loss: 10.4761 (10.4965)  acc_local: 61.4895 (60.3043)  acc_global: 56.7239 (55.9830)  acc: 66.0284 (64.8233)  acc_PL: 75.0359 (74.1079), Time: 71.91s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 71.4844 (71.4844)
+Test:  [ 9/10]  acc: 76.0171 (75.9643)
+Test: Total time: 0:00:06 (0.6672 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 75	acc: 100.00%
+* class: 72 (water lily)	total: 58	correct: 45	acc: 77.59%
+* class: 87 (cyclamen)	total: 46	correct: 41	acc: 89.13%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 55	acc: 93.22%
+* class: 73 (rose)	total: 51	correct: 51	acc: 100.00%
+* class: 50 (petunia)	total: 77	correct: 19	acc: 24.68%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 32	acc: 94.12%
+* class: 82 (hibiscus)	total: 39	correct: 38	acc: 97.44%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 30	acc: 93.75%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 29	acc: 76.32%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 29	acc: 90.62%
+* class: 83 (columbine)	total: 26	correct: 25	acc: 96.15%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 16	acc: 94.12%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 33	acc: 100.00%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 23	acc: 88.46%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 28	acc: 96.55%
+* class: 52 (primula)	total: 28	correct: 23	acc: 82.14%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 12	acc: 54.55%
+* class: 89 (canna lily)	total: 25	correct: 18	acc: 72.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 18	acc: 90.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 18	acc: 90.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 13	acc: 76.47%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 6	acc: 35.29%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 10	acc: 62.50%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 3	acc: 21.43%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 14	acc: 93.33%
+* class: 48 (oxeye daisy)	total: 15	correct: 15	acc: 100.00%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 13	acc: 92.86%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 2	acc: 15.38%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 8	acc: 66.67%
+* class: 20 (fire lily)	total: 12	correct: 11	acc: 91.67%
+* class: 23 (red ginger)	total: 13	correct: 8	acc: 61.54%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 15	acc: 93.75%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 9	acc: 75.00%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 29	acc: 76.32%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 22	acc: 88.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 11	acc: 64.71%
+* class: 101 (blackberry lily)	total: 14	correct: 13	acc: 92.86%
+
+* Mean Accuracy: 86.61%
+* Harmonic Mean Accuracy: 65.17%
+
+Accuracy of the network on the 2463 test images: 75.96%
+Epoch: [13/15] Iter:  [ 0/64]  PL_conf: 0.3737 (0.3737)  loss: 11.2090 (11.2090)  acc_local: 60.9375 (60.9375)  acc_global: 60.9375 (60.9375)  acc: 70.3125 (70.3125)  acc_PL: 76.5625 (76.5625)
+Epoch: [13/15] Iter:  [10/64]  PL_conf: 0.3746 (0.3746)  loss: 10.6067 (10.6067)  acc_local: 61.9318 (61.9318)  acc_global: 55.8239 (55.8239)  acc: 64.6307 (64.6307)  acc_PL: 73.8636 (73.8636)
+Epoch: [13/15] Iter:  [20/64]  PL_conf: 0.3740 (0.3740)  loss: 10.4616 (10.4972)  acc_local: 62.5000 (62.4256)  acc_global: 57.1094 (57.2917)  acc: 67.1094 (67.2619)  acc_PL: 74.9219 (75.0000)
+Epoch: [13/15] Iter:  [30/64]  PL_conf: 0.3737 (0.3740)  loss: 10.4180 (10.4849)  acc_local: 61.3281 (61.5423)  acc_global: 57.1094 (56.6532)  acc: 67.1094 (66.2298)  acc_PL: 74.9219 (74.5464)
+Epoch: [13/15] Iter:  [40/64]  PL_conf: 0.3742 (0.3741)  loss: 10.4626 (10.4803)  acc_local: 60.4688 (61.4710)  acc_global: 55.8594 (56.5930)  acc: 64.9219 (66.1204)  acc_PL: 72.9688 (74.0091)
+Epoch: [13/15] Iter:  [50/64]  PL_conf: 0.3738 (0.3739)  loss: 10.4611 (10.4756)  acc_local: 61.3281 (61.4583)  acc_global: 55.6250 (56.2500)  acc: 66.0156 (66.1458)  acc_PL: 72.3438 (73.6826)
+Epoch: [13/15] Iter:  [60/64]  PL_conf: 0.3736 (0.3739)  loss: 10.4499 (10.4703)  acc_local: 62.1094 (61.6803)  acc_global: 56.1719 (56.4549)  acc: 66.7969 (66.3422)  acc_PL: 73.2031 (73.7449)
+Epoch: [13/15] Iter:  [63/64]  PL_conf: 0.3738 (0.3740)  loss: 10.4364 (10.4642)  acc_local: 62.7318 (61.9621)  acc_global: 56.7597 (56.5802)  acc: 67.5013 (66.5287)  acc_PL: 73.7705 (73.9078)
+Epoch: [13/15] Iter: Total time: 0:01:11 (1.1218 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 12 : PL_conf: 0.3738 (0.3740)  loss: 10.4364 (10.4642)  acc_local: 62.7318 (61.9621)  acc_global: 56.7597 (56.5802)  acc: 67.5013 (66.5287)  acc_PL: 73.7705 (73.9078), Time: 71.80s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 71.8750 (71.8750)
+Test:  [ 9/10]  acc: 76.0628 (76.0861)
+Test: Total time: 0:00:06 (0.6548 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 46	acc: 79.31%
+* class: 87 (cyclamen)	total: 46	correct: 42	acc: 91.30%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 54	acc: 91.53%
+* class: 73 (rose)	total: 51	correct: 50	acc: 98.04%
+* class: 50 (petunia)	total: 77	correct: 23	acc: 29.87%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 33	acc: 97.06%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 30	acc: 78.95%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 29	acc: 90.62%
+* class: 83 (columbine)	total: 26	correct: 24	acc: 92.31%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 21	acc: 80.77%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 28	acc: 96.55%
+* class: 52 (primula)	total: 28	correct: 26	acc: 92.86%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 23	acc: 88.46%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 24	acc: 96.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 14	acc: 63.64%
+* class: 89 (canna lily)	total: 25	correct: 17	acc: 68.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 19	acc: 95.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 13	acc: 92.86%
+* class: 3 (sweet pea)	total: 17	correct: 11	acc: 64.71%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 8	acc: 47.06%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 13	acc: 86.67%
+* class: 48 (oxeye daisy)	total: 15	correct: 14	acc: 93.33%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 14	acc: 93.33%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 2	acc: 15.38%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 7	acc: 58.33%
+* class: 20 (fire lily)	total: 12	correct: 10	acc: 83.33%
+* class: 23 (red ginger)	total: 13	correct: 8	acc: 61.54%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 10	acc: 83.33%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 2	acc: 16.67%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 47	acc: 95.92%
+* class: 94 (bougainvillea)	total: 38	correct: 32	acc: 84.21%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 20	acc: 80.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 10	acc: 58.82%
+* class: 101 (blackberry lily)	total: 14	correct: 12	acc: 85.71%
+
+* Mean Accuracy: 85.45%
+* Harmonic Mean Accuracy: 59.97%
+
+Accuracy of the network on the 2463 test images: 76.09%
+Epoch: [14/15] Iter:  [ 0/64]  PL_conf: 0.3775 (0.3775)  loss: 11.2112 (11.2112)  acc_local: 67.1875 (67.1875)  acc_global: 53.1250 (53.1250)  acc: 65.6250 (65.6250)  acc_PL: 79.6875 (79.6875)
+Epoch: [14/15] Iter:  [10/64]  PL_conf: 0.3739 (0.3739)  loss: 10.6490 (10.6490)  acc_local: 59.9432 (59.9432)  acc_global: 53.2670 (53.2670)  acc: 62.7841 (62.7841)  acc_PL: 72.7273 (72.7273)
+Epoch: [14/15] Iter:  [20/64]  PL_conf: 0.3741 (0.3742)  loss: 10.5238 (10.5565)  acc_local: 60.5469 (60.8631)  acc_global: 54.6875 (54.6131)  acc: 64.5312 (64.5833)  acc_PL: 72.8125 (73.1399)
+Epoch: [14/15] Iter:  [30/64]  PL_conf: 0.3739 (0.3739)  loss: 10.4717 (10.5346)  acc_local: 60.4688 (60.2823)  acc_global: 56.2500 (55.1915)  acc: 66.0156 (64.8690)  acc_PL: 73.2812 (73.0847)
+Epoch: [14/15] Iter:  [40/64]  PL_conf: 0.3737 (0.3740)  loss: 10.4813 (10.5199)  acc_local: 59.7656 (60.3277)  acc_global: 55.7031 (55.1448)  acc: 66.1719 (65.3582)  acc_PL: 74.3750 (73.7424)
+Epoch: [14/15] Iter:  [50/64]  PL_conf: 0.3745 (0.3741)  loss: 10.4763 (10.5117)  acc_local: 61.0938 (60.6005)  acc_global: 54.8438 (55.0551)  acc: 66.6406 (65.5637)  acc_PL: 76.0938 (74.2647)
+Epoch: [14/15] Iter:  [60/64]  PL_conf: 0.3745 (0.3741)  loss: 10.4572 (10.4993)  acc_local: 62.5000 (61.0400)  acc_global: 56.6406 (55.6352)  acc: 66.0938 (65.5994)  acc_PL: 74.2969 (73.9242)
+Epoch: [14/15] Iter:  [63/64]  PL_conf: 0.3743 (0.3741)  loss: 10.4365 (10.4903)  acc_local: 62.7318 (61.1808)  acc_global: 56.5254 (55.7257)  acc: 66.2551 (65.7731)  acc_PL: 73.9344 (74.0811)
+Epoch: [14/15] Iter: Total time: 0:01:11 (1.1216 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 13 : PL_conf: 0.3743 (0.3741)  loss: 10.4365 (10.4903)  acc_local: 62.7318 (61.1808)  acc_global: 56.5254 (55.7257)  acc: 66.2551 (65.7731)  acc_PL: 73.9344 (74.0811), Time: 71.78s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 71.8750 (71.8750)
+Test:  [ 9/10]  acc: 75.4769 (75.4771)
+Test: Total time: 0:00:06 (0.6457 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 47	acc: 81.03%
+* class: 87 (cyclamen)	total: 46	correct: 41	acc: 89.13%
+* class: 88 (watercress)	total: 55	correct: 0	acc: 0.00%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 52	acc: 88.14%
+* class: 73 (rose)	total: 51	correct: 51	acc: 100.00%
+* class: 50 (petunia)	total: 77	correct: 21	acc: 27.27%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 32	acc: 94.12%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 34	acc: 80.95%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 28	acc: 73.68%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 29	acc: 90.62%
+* class: 83 (columbine)	total: 26	correct: 26	acc: 100.00%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 15	acc: 88.24%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 33	acc: 100.00%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 21	acc: 80.77%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 27	acc: 96.43%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 21	acc: 80.77%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 22	acc: 88.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 15	acc: 68.18%
+* class: 89 (canna lily)	total: 25	correct: 17	acc: 68.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 18	acc: 90.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 18	acc: 100.00%
+* class: 90 (hippeastrum)	total: 23	correct: 22	acc: 95.65%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 1	acc: 5.56%
+* class: 4 (english marigold)	total: 20	correct: 17	acc: 85.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 16	acc: 88.89%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 12	acc: 70.59%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 6	acc: 35.29%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 10	acc: 62.50%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 2	acc: 14.29%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 14	acc: 93.33%
+* class: 48 (oxeye daisy)	total: 15	correct: 14	acc: 93.33%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 14	acc: 100.00%
+* class: 32 (love in the mist)	total: 14	correct: 0	acc: 0.00%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 3	acc: 23.08%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 7	acc: 58.33%
+* class: 20 (fire lily)	total: 12	correct: 10	acc: 83.33%
+* class: 23 (red ginger)	total: 13	correct: 7	acc: 53.85%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 14	acc: 87.50%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 9	acc: 75.00%
+* class: 38 (siam tulip)	total: 13	correct: 7	acc: 53.85%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 19	acc: 95.00%
+* class: 61 (japanese anemone)	total: 16	correct: 16	acc: 100.00%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 28	acc: 73.68%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 21	acc: 84.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 11	acc: 64.71%
+* class: 101 (blackberry lily)	total: 14	correct: 12	acc: 85.71%
+
+* Mean Accuracy: 85.93%
+* Harmonic Mean Accuracy: 63.01%
+
+Accuracy of the network on the 2463 test images: 75.48%
+Epoch: [15/15] Iter:  [ 0/64]  PL_conf: 0.3752 (0.3752)  loss: 11.3549 (11.3549)  acc_local: 64.0625 (64.0625)  acc_global: 60.9375 (60.9375)  acc: 73.4375 (73.4375)  acc_PL: 79.6875 (79.6875)
+Epoch: [15/15] Iter:  [10/64]  PL_conf: 0.3740 (0.3740)  loss: 10.6132 (10.6132)  acc_local: 61.6477 (61.6477)  acc_global: 54.8295 (54.8295)  acc: 64.2045 (64.2045)  acc_PL: 72.3011 (72.3011)
+Epoch: [15/15] Iter:  [20/64]  PL_conf: 0.3740 (0.3740)  loss: 10.4891 (10.5303)  acc_local: 61.2500 (61.3839)  acc_global: 56.3281 (56.5476)  acc: 65.0781 (65.4762)  acc_PL: 72.4219 (72.7679)
+Epoch: [15/15] Iter:  [30/64]  PL_conf: 0.3740 (0.3740)  loss: 10.4497 (10.5077)  acc_local: 61.3281 (61.4415)  acc_global: 56.4844 (55.8972)  acc: 67.1875 (66.1290)  acc_PL: 74.3750 (73.6391)
+Epoch: [15/15] Iter:  [40/64]  PL_conf: 0.3741 (0.3741)  loss: 10.4512 (10.4917)  acc_local: 61.7188 (61.5473)  acc_global: 54.6875 (55.6402)  acc: 67.1875 (66.3110)  acc_PL: 73.6719 (73.2088)
+Epoch: [15/15] Iter:  [50/64]  PL_conf: 0.3745 (0.3742)  loss: 10.4813 (10.4974)  acc_local: 62.2656 (61.7647)  acc_global: 56.7188 (56.2194)  acc: 67.2656 (66.5748)  acc_PL: 73.9844 (73.7745)
+Epoch: [15/15] Iter:  [60/64]  PL_conf: 0.3737 (0.3740)  loss: 10.4660 (10.4833)  acc_local: 63.2031 (62.0902)  acc_global: 58.4375 (56.5574)  acc: 67.4219 (66.6752)  acc_PL: 75.3906 (73.9242)
+Epoch: [15/15] Iter:  [63/64]  PL_conf: 0.3735 (0.3740)  loss: 10.4851 (10.4868)  acc_local: 61.8532 (61.7364)  acc_global: 59.0369 (56.5106)  acc: 66.1539 (66.3030)  acc_PL: 75.2318 (73.8029)
+Epoch: [15/15] Iter: Total time: 0:01:10 (1.1081 s / it)
+-----------------------------------------------------------------------
+Averaged stats: 14 : PL_conf: 0.3735 (0.3740)  loss: 10.4851 (10.4868)  acc_local: 61.8532 (61.7364)  acc_global: 59.0369 (56.5106)  acc: 66.1539 (66.3030)  acc_PL: 75.2318 (73.8029), Time: 70.92s
+-----------------------------------------------------------------------
+Test:  [ 0/10]  acc: 72.2656 (72.2656)
+Test:  [ 9/10]  acc: 76.2124 (76.1673)
+Test: Total time: 0:00:06 (0.6549 s / it)
+
+Per-Class Accuracy Results:
+* class: 76 (passion flower)	total: 75	correct: 74	acc: 98.67%
+* class: 72 (water lily)	total: 58	correct: 47	acc: 81.03%
+* class: 87 (cyclamen)	total: 46	correct: 40	acc: 86.96%
+* class: 88 (watercress)	total: 55	correct: 2	acc: 3.64%
+* class: 80 (frangipani)	total: 50	correct: 49	acc: 98.00%
+* class: 45 (wallflower)	total: 59	correct: 52	acc: 88.14%
+* class: 73 (rose)	total: 51	correct: 49	acc: 96.08%
+* class: 50 (petunia)	total: 77	correct: 24	acc: 31.17%
+* class: 43 (poinsettia)	total: 28	correct: 28	acc: 100.00%
+* class: 81 (clematis)	total: 34	correct: 31	acc: 91.18%
+* class: 82 (hibiscus)	total: 39	correct: 37	acc: 94.87%
+* class: 77 (lotus)	total: 42	correct: 36	acc: 85.71%
+* class: 79 (anthurium)	total: 32	correct: 31	acc: 96.88%
+* class: 74 (thorn apple)	total: 36	correct: 36	acc: 100.00%
+* class: 40 (barbeton daisy)	total: 38	correct: 28	acc: 73.68%
+* class: 42 (sword lily)	total: 39	correct: 0	acc: 0.00%
+* class: 75 (morning glory)	total: 32	correct: 30	acc: 93.75%
+* class: 83 (columbine)	total: 26	correct: 25	acc: 96.15%
+* class: 57 (geranium)	total: 34	correct: 0	acc: 0.00%
+* class: 55 (bishop of llandaff)	total: 33	correct: 0	acc: 0.00%
+* class: 85 (tree mallow)	total: 17	correct: 16	acc: 94.12%
+* class: 59 (pink and yellow dahlia)	total: 33	correct: 32	acc: 96.97%
+* class: 91 (bee balm)	total: 20	correct: 20	acc: 100.00%
+* class: 10 (snapdragon)	total: 26	correct: 21	acc: 80.77%
+* class: 64 (californian poppy)	total: 31	correct: 29	acc: 93.55%
+* class: 7 (bird of paradise)	total: 26	correct: 25	acc: 96.15%
+* class: 22 (fritillary)	total: 27	correct: 27	acc: 100.00%
+* class: 29 (sweet william)	total: 26	correct: 25	acc: 96.15%
+* class: 71 (azalea)	total: 29	correct: 27	acc: 93.10%
+* class: 52 (primula)	total: 28	correct: 26	acc: 92.86%
+* class: 36 (cape flower)	total: 32	correct: 0	acc: 0.00%
+* class: 16 (purple coneflower)	total: 26	correct: 26	acc: 100.00%
+* class: 11 (colt's foot)	total: 26	correct: 22	acc: 84.62%
+* class: 28 (artichoke)	total: 23	correct: 23	acc: 100.00%
+* class: 51 (wild pansy)	total: 26	correct: 26	acc: 100.00%
+* class: 17 (peruvian lily)	total: 25	correct: 23	acc: 92.00%
+* class: 35 (ruby-lipped cattleya)	total: 22	correct: 14	acc: 63.64%
+* class: 89 (canna lily)	total: 25	correct: 19	acc: 76.00%
+* class: 70 (gazania)	total: 23	correct: 23	acc: 100.00%
+* class: 39 (lenten rose)	total: 20	correct: 19	acc: 95.00%
+* class: 47 (buttercup)	total: 21	correct: 21	acc: 100.00%
+* class: 54 (pelargonium)	total: 21	correct: 0	acc: 0.00%
+* class: 84 (desert-rose)	total: 18	correct: 17	acc: 94.44%
+* class: 90 (hippeastrum)	total: 23	correct: 23	acc: 100.00%
+* class: 19 (giant white arum lily)	total: 17	correct: 15	acc: 88.24%
+* class: 46 (marigold)	total: 20	correct: 0	acc: 0.00%
+* class: 58 (orange dahlia)	total: 20	correct: 19	acc: 95.00%
+* class: 1 (hard-leaved pocket orchid)	total: 18	correct: 0	acc: 0.00%
+* class: 4 (english marigold)	total: 20	correct: 16	acc: 80.00%
+* class: 27 (stemless gentian)	total: 20	correct: 19	acc: 95.00%
+* class: 69 (tree poppy)	total: 19	correct: 18	acc: 94.74%
+* class: 21 (pincushion flower)	total: 17	correct: 17	acc: 100.00%
+* class: 53 (sunflower)	total: 19	correct: 19	acc: 100.00%
+* class: 86 (magnolia)	total: 18	correct: 17	acc: 94.44%
+* class: 65 (osteospermum)	total: 19	correct: 18	acc: 94.74%
+* class: 31 (garden phlox)	total: 14	correct: 14	acc: 100.00%
+* class: 3 (sweet pea)	total: 17	correct: 13	acc: 76.47%
+* class: 41 (daffodil)	total: 17	correct: 16	acc: 94.12%
+* class: 12 (king protea)	total: 15	correct: 15	acc: 100.00%
+* class: 37 (great masterwort)	total: 17	correct: 8	acc: 47.06%
+* class: 62 (black-eyed susan)	total: 16	correct: 16	acc: 100.00%
+* class: 67 (bearded iris)	total: 16	correct: 9	acc: 56.25%
+* class: 68 (windflower)	total: 16	correct: 0	acc: 0.00%
+* class: 92 (air plant)	total: 14	correct: 3	acc: 21.43%
+* class: 13 (spear thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 63 (silverbush)	total: 16	correct: 0	acc: 0.00%
+* class: 18 (balloon flower)	total: 15	correct: 15	acc: 100.00%
+* class: 48 (oxeye daisy)	total: 15	correct: 13	acc: 86.67%
+* class: 60 (cautleya spicata)	total: 15	correct: 15	acc: 100.00%
+* class: 49 (common dandelion)	total: 28	correct: 28	acc: 100.00%
+* class: 14 (yellow iris)	total: 15	correct: 15	acc: 100.00%
+* class: 8 (monkshood)	total: 14	correct: 13	acc: 92.86%
+* class: 32 (love in the mist)	total: 14	correct: 1	acc: 7.14%
+* class: 25 (corn poppy)	total: 13	correct: 13	acc: 100.00%
+* class: 24 (grape hyacinth)	total: 13	correct: 13	acc: 100.00%
+* class: 2 (canterbury bells)	total: 12	correct: 6	acc: 50.00%
+* class: 15 (globe flower)	total: 13	correct: 3	acc: 23.08%
+* class: 78 (toad lily)	total: 13	correct: 13	acc: 100.00%
+* class: 0 (pink primrose)	total: 12	correct: 7	acc: 58.33%
+* class: 20 (fire lily)	total: 12	correct: 10	acc: 83.33%
+* class: 23 (red ginger)	total: 13	correct: 9	acc: 69.23%
+* class: 26 (prince of wales feathers)	total: 12	correct: 0	acc: 0.00%
+* class: 30 (carnation)	total: 16	correct: 15	acc: 93.75%
+* class: 33 (mexican aster)	total: 12	correct: 11	acc: 91.67%
+* class: 34 (alpine sea holly)	total: 12	correct: 11	acc: 91.67%
+* class: 38 (siam tulip)	total: 13	correct: 8	acc: 61.54%
+* class: 66 (spring crocus)	total: 13	correct: 13	acc: 100.00%
+* class: 9 (globe thistle)	total: 14	correct: 14	acc: 100.00%
+* class: 44 (bolero deep blue)	total: 12	correct: 1	acc: 8.33%
+* class: 5 (tiger lily)	total: 14	correct: 14	acc: 100.00%
+* class: 6 (moon orchid)	total: 12	correct: 12	acc: 100.00%
+* class: 56 (gaura)	total: 20	correct: 20	acc: 100.00%
+* class: 61 (japanese anemone)	total: 16	correct: 15	acc: 93.75%
+* class: 93 (foxglove)	total: 49	correct: 46	acc: 93.88%
+* class: 94 (bougainvillea)	total: 38	correct: 28	acc: 73.68%
+* class: 95 (camellia)	total: 27	correct: 25	acc: 92.59%
+* class: 96 (mallow)	total: 20	correct: 0	acc: 0.00%
+* class: 97 (mexican petunia)	total: 25	correct: 20	acc: 80.00%
+* class: 98 (bromelia)	total: 18	correct: 18	acc: 100.00%
+* class: 99 (blanket flower)	total: 15	correct: 15	acc: 100.00%
+* class: 100 (trumpet creeper)	total: 17	correct: 13	acc: 76.47%
+* class: 101 (blackberry lily)	total: 14	correct: 14	acc: 100.00%
+
+* Mean Accuracy: 86.05%
+* Harmonic Mean Accuracy: 56.33%
+
+Accuracy of the network on the 2463 test images: 76.17%
+Adaptation time 0:19:37
+
+Average GPU Memory Usage over 15 epochs: 5353.92 MB

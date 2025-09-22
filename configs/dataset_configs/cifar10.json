@@ -1,0 +1,9 @@
+{
+    "lr": 1e-4,
+    "epochs": 15,
+    "batch_size": 64,
+    "ce_weight": 1.0,
+    "fairness_weight": 1.0,
+    "n_crops": 8,
+    "gamma": 0.5
+}

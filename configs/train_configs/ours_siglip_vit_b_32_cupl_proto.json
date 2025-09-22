@@ -1,0 +1,11 @@
+{
+    "method"                            : "ours",
+    "eval_freq"                         : 5,
+    "final_model"                       : "last",
+    "source_model"                      : "SigLIP",
+    "pretrained"                        : "google/siglip2-base-patch32-256",
+    "vision_backbone"                   : "ViT-B-14",
+    "use_handcrafted"                   : false,
+    "use_learnable_classifier"          : true,
+    "prompt_type"                       : "multi"
+}
