@@ -1,6 +1,6 @@
-output/*
+output
 ckpts/*
-data
+data/*
 *.zip
 *.png
 *.jpg
