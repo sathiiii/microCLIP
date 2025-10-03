@@ -1,0 +1,6 @@
+/* Gentle typography + spacing on top of Minima */
+.wrapper { max-width: 980px; padding: 2rem 1rem; }
+h1, h2, h3 { line-height: 1.25; margin-top: 1.5rem; }
+p { line-height: 1.7; margin: 0.6rem 0; }
+img { max-width: 100%; height: auto; border-radius: 6px; }
+hr { margin: 1.5rem 0; }

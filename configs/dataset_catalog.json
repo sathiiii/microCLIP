@@ -1,0 +1,126 @@
+{
+    "office_home": {
+        "path"   : "./data/office_home",
+        "type"   : "imagefolder"
+    },
+    "dtd": {
+        "path"   : "./data/dtd",
+        "type"   : "imagefolder",
+        "train"  : "trainval",
+        "test"   : "test"
+    },
+    "food101": {
+        "path"   : "./data/food101",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "caltech101": {
+        "path"   : "./data/caltech101",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "ucf101": {
+        "path"   : "./data/ucf101",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "val"
+    },
+    "sun397": {
+        "path"   : "./data/sun397",
+        "type"   : "filelist",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "pets": {
+        "path"   : "./data/oxford_pets",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "eurosat": {
+        "path"   : "./data/eurosat/",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "val"
+    },
+    "fgvc":{
+        "path"   : "./data/aircrafts",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "flowers":{
+        "path"   : "./data/flowers",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "cars":{
+        "path"   : "./data/cars",
+        "type"   : "imagefolder",
+        "train"  : "train",
+        "test"   : "test"
+    },
+    "imagenet": {
+        "path": "./data/imagenet/ILSVRC/Data/CLS-LOC",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "val"
+    },
+    "imagenett": {
+        "path": "./data/imagenett/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "val"
+    },
+    "cifar10": {
+        "path": "./data/cifar10/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "cifar100": {
+        "path": "./data/cifar100/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "aid": {
+        "path": "./data/aid/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "resisc45": {
+        "path": "./data/resisc45/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "gtsrb": {
+        "path": "./data/gtsrb/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "cub": {
+        "path": "./data/cub/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "birdsnap": {
+        "path": "./data/birdsnap",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    },
+    "kinetics": {
+        "path": "./data/kinetics",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "test"
+    }
+}
