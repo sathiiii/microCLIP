@@ -1,85 +1,68 @@
 name: microclip
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=2_gnu
-  - appdirs=1.4.4=pyh9f0ad1d_0
-  - boost-cpp=1.78.0=h2c5509c_4
-  - bzip2=1.0.8=h4bc722e_7
-  - ca-certificates=2025.1.31=hbcca054_0
-  - certifi=2024.8.30=pyhd8ed1ab_0
-  - cudatoolkit=11.7.0=hd8887f6_11
-  - cudatoolkit-dev=11.7.0=h1de0b5d_6
-  - icu=73.2=h59595ed_0
-  - ld_impl_linux-64=2.38=h1181459_1
-  - libblas=3.9.0=28_h59b9bed_openblas
-  - libcblas=3.9.0=28_he106b2a_openblas
-  - libffi=3.4.4=h6a678d5_0
-  - libgcc=14.2.0=h77fa898_1
-  - libgcc-ng=14.2.0=h69a702a_1
-  - libgfortran=14.2.0=h69a702a_1
-  - libgfortran5=14.2.0=hd5240d6_1
-  - libgomp=14.2.0=h77fa898_1
-  - liblapack=3.9.0=28_h7ac8fdf_openblas
-  - libnsl=2.0.1=hd590300_0
-  - libopenblas=0.3.28=pthreads_h94d23a6_1
-  - libsqlite=3.45.2=h2797004_0
-  - libstdcxx=14.2.0=hc0a3c3a_1
-  - libstdcxx-ng=14.2.0=h4852527_1
-  - libzlib=1.3.1=hb9d3cd8_2
-  - mako=1.3.5=pyhd8ed1ab_0
-  - ncurses=6.4=h6a678d5_0
-  - numpy=1.21.6=py37h976b520_0
-  - openssl=3.4.0=h7b32b05_1
-  - pip=22.3.1=py37h06a4308_0
-  - platformdirs=4.0.0=pyhd8ed1ab_0
-  - pycuda=2022.1=py37h790c342_1
-  - python=3.7.12=hf930737_100_cpython
-  - python_abi=3.7=4_cp37m
-  - pytools=2023.1.1=pyhd8ed1ab_0
-  - readline=8.2=h5eee18b_0
-  - sqlite=3.45.2=h2c6b66d_0
-  - tk=8.6.13=noxft_h4845f30_101
-  - typing_extensions=4.7.1=pyha770c72_0
-  - wheel=0.38.4=py37h06a4308_0
-  - xz=5.4.6=h5eee18b_0
-  - zipp=3.15.0=pyhd8ed1ab_0
-  - zlib=1.3.1=hb9d3cd8_2
-  - zstd=1.5.6=ha6fb4c9_0
+  - python=3.10
+  - pip=24.0
+  - setuptools
+  - wheel
+  - libstdcxx-ng>=14
+  - libgcc-ng>=14
+  - ncurses
+  - bzip2
+  - xz
+  - zlib
+  - zstd
+  - sqlite
+  - icu
+  - numpy=1.23.5
+  - scipy=1.10
+  - pandas=1.5
+  - matplotlib=3.7
+  - seaborn=0.12
+  - scikit-learn=1.2.2
+  - scikit-image=0.19
+  - pillow=9.5
+  - typing_extensions
+  - sentencepiece
+  - ftfy
+  - einops
+  - timm=0.9.12
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - torchaudio=0.13.1
+  - pytorch-cuda=11.7
+  - ffmpeg
+  - av
+  - opencv
+  - pkg-config
+  - pycuda
+
   - pip:
+      - scikit-learn==1.2.2
+      - git+https://github.com/openai/CLIP.git@main
       - absl-py==2.1.0
       - accelerate==0.20.3
-      - aiohttp==3.8.6
+      - aiohttp==3.9.5
       - aiosignal==1.3.1
       - annotated-types==0.5.0
       - antlr4-python3-runtime==4.8
       - anyio==3.7.1
       - async-timeout==4.0.3
-      - asynctest==0.13.0
       - attrs==24.2.0
-      - av==10.0.0
-      - backcall==0.2.0
-      - beautifulsoup4==4.12.3
       - braceexpand==0.1.7
-      - cached-property==1.5.2
       - cachetools==5.3.3
       - charset-normalizer==3.3.2
-      - clip==1.0
       - cloudpickle==2.2.1
-      - cycler==0.11.0
-      - cython==0.29.22
       - datasets==2.13.2
-      - debugpy==1.7.0
-      - decorator==5.1.1
       - dill==0.3.6
       - distinctipy==1.2.3
       - distro==1.9.0
       - easyprocess==1.1
-      - einops==0.6.1
       - entrypoint2==1.1
-      - entrypoints==0.3
       - exceptiongroup==1.2.2
       - filelock==3.12.2
       - fire==0.6.0
@@ -87,7 +70,6 @@ dependencies:
       - fonttools==4.38.0
       - frozenlist==1.3.3
       - fsspec==2023.1.0
-      - ftfy==6.1.1
       - future==1.0.0
       - fvcore==0.1.3.post20210317
       - gdown==4.7.3
@@ -106,8 +88,7 @@ dependencies:
       - inquirerpy==0.3.4
       - iopath==0.1.9
       - ipykernel==6.16.2
-      - ipython==7.34.0
-      - isort==4.3.21
+      - ipython==8.12.2
       - jedi==0.19.2
       - joblib==1.3.2
       - jupyter-client==7.4.9
@@ -116,7 +97,6 @@ dependencies:
       - littleutils==0.2.2
       - markdown==3.4.4
       - markupsafe==2.1.5
-      - matplotlib==3.5.3
       - matplotlib-inline==0.1.6
       - mccabe==0.6.1
       - multidict==6.0.5
@@ -130,16 +110,13 @@ dependencies:
       - omegaconf==2.0.6
       - open-clip-torch==2.24.0
       - openai==1.39.0
-      - opencv-python==4.11.0.86
       - outdated==0.2.2
       - packaging==24.0
-      - pandas==1.3.5
       - parameterized==0.7.4
       - parso==0.8.4
       - pexpect==4.9.0
       - pfzy==0.3.4
       - pickleshare==0.7.5
-      - pillow==9.5.0
       - portalocker==2.7.0
       - prettytable==3.7.0
       - prompt-toolkit==3.0.48
@@ -167,13 +144,6 @@ dependencies:
       - requests-oauthlib==2.0.0
       - rsa==4.9
       - safetensors==0.4.3
-      - scikit-cuda==0.5.1
-      - scikit-image==0.19.3
-      - scikit-learn==0.24.1
-      - scipy==1.7.3
-      - seaborn==0.12.2
-      - sentencepiece==0.2.0
-      - setuptools==59.5.0
       - simplecrf==0.2.1.1
       - six==1.16.0
       - sniffio==1.3.1
@@ -187,18 +157,10 @@ dependencies:
       - termcolor==2.3.0
       - threadpoolctl==3.1.0
       - tifffile==2021.11.2
-      - timm==0.9.12
       - tokenizers==0.13.3
-      - torch==1.13.0+cu117
-      - torchaudio==0.13.0+cu117
-      - torchvision==0.14.0+cu117
-      - tornado==6.2
-      - tqdm==4.66.2
-      - traitlets==5.9.0
       - transformers==4.30.2
+      - tqdm==4.66.2
       - urllib3==2.0.7
-      - vissl==0.1.6
-      - wcwidth==0.2.13
       - webdataset==0.2.100
       - werkzeug==2.2.3
       - wilds==1.2.2
