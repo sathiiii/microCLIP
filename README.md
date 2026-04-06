@@ -7,7 +7,7 @@
 
 ## 📢 Latest Updates
 
-- **April-07-25:** Our paper has been accepted at ACL 2026 Findings!
+- **April-07-26:** Our paper has been accepted at ACL 2026 Findings!
 - **Oct-03-25:** Preprint available on [arXiv](https://arxiv.org/abs/2510.02270).
 - **Oct-03-25:** Initial release of microCLIP code.
 
